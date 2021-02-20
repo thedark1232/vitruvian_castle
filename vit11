@@ -1,0 +1,1190 @@
+local castle_library = {}
+function castle_library.build_pair()
+local t = {
+["1"] = {x = {}, y = {},name = {}, meta = {}},
+["2"] = {x = {}, y = {},name = {}, meta = {}},
+["3"] = {x = {}, y = {},name = {}, meta = {}},
+["4"] = {x = {}, y = {},name = {}, meta = {}},
+["5"] = {x = {}, y = {},name = {}, meta = {}},
+["6"] = {x = {}, y = {},name = {}, meta = {}},
+["7"] = {x = {}, y = {},name = {}, meta = {}},
+["8"] = {x = {}, y = {},name = {}, meta = {}},
+["9"] = {x = {}, y = {},name = {}, meta = {}},
+["10"] = {x = {}, y = {},name = {}, meta = {}},
+["11"] = {x = {}, y = {},name = {}, meta = {}},
+["12"] = {x = {}, y = {},name = {}, meta = {}},
+["13"] = {x = {}, y = {},name = {}, meta = {}},
+["14"] = {x = {}, y = {},name = {}, meta = {}},
+["15"] = {x = {}, y = {},name = {}, meta = {}},
+["16"] = {x = {}, y = {},name = {}, meta = {}},
+["17"] = {x = {}, y = {},name = {}, meta = {}},
+["18"] = {x = {}, y = {},name = {}, meta = {}},
+["19"] = {x = {}, y = {},name = {}, meta = {}},
+["20"] = {x = {}, y = {},name = {}, meta = {}},
+["21"] = {x = {}, y = {},name = {}, meta = {}},
+["22"] = {x = {}, y = {},name = {}, meta = {}},
+["23"] = {x = {}, y = {},name = {}, meta = {}},
+["24"] = {x = {}, y = {},name = {}, meta = {}},
+["25"] = {x = {}, y = {},name = {}, meta = {}},
+["26"] = {x = {}, y = {},name = {}, meta = {}},
+["27"] = {x = {}, y = {},name = {}, meta = {}},
+["28"] = {x = {}, y = {},name = {}, meta = {}},
+["29"] = {x = {}, y = {},name = {}, meta = {}},
+["30"] = {x = {}, y = {},name = {}, meta = {}},
+["31"] = {x = {}, y = {},name = {}, meta = {}},
+["32"] = {x = {}, y = {},name = {}, meta = {}},
+["33"] = {x = {}, y = {},name = {}, meta = {}},
+["34"] = {x = {}, y = {},name = {}, meta = {}},
+["35"] = {x = {}, y = {},name = {}, meta = {}},
+["36"] = {x = {}, y = {},name = {}, meta = {}},
+["37"] = {x = {}, y = {},name = {}, meta = {}},
+["38"] = {x = {}, y = {},name = {}, meta = {}},
+["39"] = {x = {}, y = {},name = {}, meta = {}},
+["40"] = {x = {}, y = {},name = {}, meta = {}},
+["41"] = {x = {}, y = {},name = {}, meta = {}},
+["42"] = {x = {}, y = {},name = {}, meta = {}},
+["43"] = {x = {}, y = {},name = {}, meta = {}},
+["44"] = {x = {}, y = {},name = {}, meta = {}},
+["45"] = {x = {}, y = {},name = {}, meta = {}},
+["46"] = {x = {}, y = {},name = {}, meta = {}},
+["47"] = {x = {}, y = {},name = {}, meta = {}},
+["48"] = {x = {}, y = {},name = {}, meta = {}},
+["49"] = {x = {}, y = {},name = {}, meta = {}},
+["50"] = {x = {}, y = {},name = {}, meta = {}},
+["51"] = {x = {}, y = {},name = {}, meta = {}},
+["52"] = {x = {}, y = {},name = {}, meta = {}},
+["53"] = {x = {}, y = {},name = {}, meta = {}},
+["54"] = {x = {}, y = {},name = {}, meta = {}},
+["55"] = {x = {}, y = {},name = {}, meta = {}},
+["56"] = {x = {}, y = {},name = {}, meta = {}},
+["57"] = {x = {}, y = {},name = {}, meta = {}},
+["58"] = {x = {}, y = {},name = {}, meta = {}},
+["59"] = {x = {}, y = {},name = {}, meta = {}},
+["60"] = {x = {}, y = {},name = {}, meta = {}},
+["61"] = {x = {}, y = {},name = {}, meta = {}},
+["62"] = {x = {}, y = {},name = {}, meta = {}},
+["63"] = {x = {}, y = {},name = {}, meta = {}},
+["64"] = {x = {}, y = {},name = {}, meta = {}},
+["65"] = {x = {}, y = {},name = {}, meta = {}},
+["66"] = {x = {}, y = {},name = {}, meta = {}},
+["67"] = {x = {}, y = {},name = {}, meta = {}},
+["68"] = {x = {}, y = {},name = {}, meta = {}},
+["69"] = {x = {}, y = {},name = {}, meta = {}},
+["70"] = {x = {}, y = {},name = {}, meta = {}},
+["71"] = {x = {}, y = {},name = {}, meta = {}},
+["72"] = {x = {}, y = {},name = {}, meta = {}},
+["73"] = {x = {}, y = {},name = {}, meta = {}},
+["74"] = {x = {}, y = {},name = {}, meta = {}},
+["75"] = {x = {}, y = {},name = {}, meta = {}},
+["76"] = {x = {}, y = {},name = {}, meta = {}},
+["77"] = {x = {}, y = {},name = {}, meta = {}},
+["78"] = {x = {}, y = {},name = {}, meta = {}},
+["79"] = {x = {}, y = {},name = {}, meta = {}},
+["80"] = {x = {}, y = {},name = {}, meta = {}},
+["81"] = {x = {}, y = {},name = {}, meta = {}},
+["82"] = {x = {}, y = {},name = {}, meta = {}},
+["83"] = {x = {}, y = {},name = {}, meta = {}},
+["84"] = {x = {}, y = {},name = {}, meta = {}},
+["85"] = {x = {}, y = {},name = {}, meta = {}},
+["86"] = {x = {}, y = {},name = {}, meta = {}},
+["87"] = {x = {}, y = {},name = {}, meta = {}},
+["88"] = {x = {}, y = {},name = {}, meta = {}},
+["89"] = {x = {}, y = {},name = {}, meta = {}},
+["90"] = {x = {}, y = {},name = {}, meta = {}},
+["91"] = {x = {}, y = {},name = {}, meta = {}},
+["92"] = {x = {}, y = {},name = {}, meta = {}},
+["93"] = {x = {}, y = {},name = {}, meta = {}},
+["94"] = {x = {}, y = {},name = {}, meta = {}},
+["95"] = {x = {}, y = {},name = {}, meta = {}},
+["96"] = {x = {}, y = {},name = {}, meta = {}},
+["97"] = {x = {}, y = {},name = {}, meta = {}},
+["98"] = {x = {}, y = {},name = {}, meta = {}},
+["99"] = {x = {}, y = {},name = {}, meta = {}},
+["100"] = {x = {}, y = {},name = {}, meta = {}},
+["101"] = {x = {}, y = {},name = {}, meta = {}},
+["102"] = {x = {}, y = {},name = {}, meta = {}},
+["103"] = {x = {}, y = {},name = {}, meta = {}},
+["104"] = {x = {}, y = {},name = {}, meta = {}},
+["105"] = {x = {}, y = {},name = {}, meta = {}},
+["106"] = {x = {}, y = {},name = {}, meta = {}},
+["107"] = {x = {}, y = {},name = {}, meta = {}},
+["108"] = {x = {}, y = {},name = {}, meta = {}},
+["109"] = {x = {}, y = {},name = {}, meta = {}},
+["110"] = {x = {}, y = {},name = {}, meta = {}},
+["111"] = {x = {}, y = {},name = {}, meta = {}},
+["112"] = {x = {}, y = {},name = {}, meta = {}},
+["113"] = {x = {}, y = {},name = {}, meta = {}},
+["114"] = {x = {}, y = {},name = {}, meta = {}},
+["115"] = {x = {}, y = {},name = {}, meta = {}},
+["116"] = {x = {}, y = {},name = {}, meta = {}},
+["117"] = {x = {}, y = {},name = {}, meta = {}},
+["118"] = {x = {}, y = {},name = {}, meta = {}},
+["119"] = {x = {}, y = {},name = {}, meta = {}},
+["120"] = {x = {}, y = {},name = {}, meta = {}},
+["121"] = {x = {}, y = {},name = {}, meta = {}},
+["122"] = {x = {}, y = {},name = {}, meta = {}},
+["123"] = {x = {}, y = {},name = {}, meta = {}},
+["124"] = {x = {}, y = {},name = {}, meta = {}},
+["125"] = {x = {}, y = {},name = {}, meta = {}}}
+
+t["1"].x[1] = 1; t["1"].y[1] = 0; t["1"].name[1] = "minecraft:stonebrick"; t["1"].meta[1] = 0
+t["1"].x[2] = 1; t["1"].y[2] = 1; t["1"].name[2] = "minecraft:stonebrick"; t["1"].meta[2] = 0
+t["1"].x[3] = 1; t["1"].y[3] = 2; t["1"].name[3] = "minecraft:stonebrick"; t["1"].meta[3] = 0
+t["1"].x[4] = 1; t["1"].y[4] = 3; t["1"].name[4] = "minecraft:stonebrick"; t["1"].meta[4] = 0
+t["1"].x[5] = 1; t["1"].y[5] = 4; t["1"].name[5] = "minecraft:stonebrick"; t["1"].meta[5] = 0
+t["1"].x[6] = 1; t["1"].y[6] = 5; t["1"].name[6] = "minecraft:stonebrick"; t["1"].meta[6] = 0
+t["1"].x[7] = 1; t["1"].y[7] = 6; t["1"].name[7] = "minecraft:stonebrick"; t["1"].meta[7] = 0
+t["1"].x[8] = 1; t["1"].y[8] = 7; t["1"].name[8] = "minecraft:grass"; t["1"].meta[8] = 0
+t["1"].x[9] = 1; t["1"].y[9] = 8; t["1"].name[9] = "minecraft:grass"; t["1"].meta[9] = 0
+t["1"].x[10] = 1; t["1"].y[10] = 9; t["1"].name[10] = "minecraft:grass"; t["1"].meta[10] = 0
+t["1"].x[11] = 1; t["1"].y[11] = 10; t["1"].name[11] = "minecraft:grass"; t["1"].meta[11] = 0
+t["1"].x[12] = 1; t["1"].y[12] = 11; t["1"].name[12] = "minecraft:grass"; t["1"].meta[12] = 0
+t["1"].x[13] = 1; t["1"].y[13] = 12; t["1"].name[13] = "minecraft:grass"; t["1"].meta[13] = 0
+t["1"].x[14] = 1; t["1"].y[14] = 13; t["1"].name[14] = "minecraft:grass"; t["1"].meta[14] = 0
+t["1"].x[15] = 1; t["1"].y[15] = 14; t["1"].name[15] = "minecraft:grass"; t["1"].meta[15] = 0
+t["1"].x[16] = 1; t["1"].y[16] = 15; t["1"].name[16] = "minecraft:grass"; t["1"].meta[16] = 0
+t["1"].x[17] = 2; t["1"].y[17] = 0; t["1"].name[17] = "minecraft:stonebrick"; t["1"].meta[17] = 0
+t["1"].x[18] = 2; t["1"].y[18] = 1; t["1"].name[18] = "minecraft:stonebrick"; t["1"].meta[18] = 0
+t["1"].x[19] = 2; t["1"].y[19] = 2; t["1"].name[19] = "minecraft:stonebrick"; t["1"].meta[19] = 0
+t["1"].x[20] = 2; t["1"].y[20] = 3; t["1"].name[20] = "minecraft:stonebrick"; t["1"].meta[20] = 0
+t["1"].x[21] = 2; t["1"].y[21] = 4; t["1"].name[21] = "minecraft:stonebrick"; t["1"].meta[21] = 0
+t["1"].x[22] = 2; t["1"].y[22] = 5; t["1"].name[22] = "minecraft:stonebrick"; t["1"].meta[22] = 0
+t["1"].x[23] = 2; t["1"].y[23] = 6; t["1"].name[23] = "minecraft:stonebrick"; t["1"].meta[23] = 0
+t["1"].x[24] = 2; t["1"].y[24] = 7; t["1"].name[24] = "minecraft:grass"; t["1"].meta[24] = 0
+t["1"].x[25] = 2; t["1"].y[25] = 8; t["1"].name[25] = "minecraft:grass"; t["1"].meta[25] = 0
+t["1"].x[26] = 2; t["1"].y[26] = 9; t["1"].name[26] = "minecraft:grass"; t["1"].meta[26] = 0
+t["1"].x[27] = 2; t["1"].y[27] = 10; t["1"].name[27] = "minecraft:grass"; t["1"].meta[27] = 0
+t["1"].x[28] = 2; t["1"].y[28] = 11; t["1"].name[28] = "minecraft:grass"; t["1"].meta[28] = 0
+t["1"].x[29] = 2; t["1"].y[29] = 12; t["1"].name[29] = "minecraft:grass"; t["1"].meta[29] = 0
+t["1"].x[30] = 2; t["1"].y[30] = 13; t["1"].name[30] = "minecraft:grass"; t["1"].meta[30] = 0
+t["1"].x[31] = 2; t["1"].y[31] = 14; t["1"].name[31] = "minecraft:grass"; t["1"].meta[31] = 0
+t["1"].x[32] = 2; t["1"].y[32] = 15; t["1"].name[32] = "minecraft:grass"; t["1"].meta[32] = 0
+t["1"].x[33] = 3; t["1"].y[33] = 0; t["1"].name[33] = "minecraft:stonebrick"; t["1"].meta[33] = 0
+t["1"].x[34] = 3; t["1"].y[34] = 1; t["1"].name[34] = "minecraft:stonebrick"; t["1"].meta[34] = 0
+t["1"].x[35] = 3; t["1"].y[35] = 2; t["1"].name[35] = "minecraft:stonebrick"; t["1"].meta[35] = 0
+t["1"].x[36] = 3; t["1"].y[36] = 3; t["1"].name[36] = "minecraft:stonebrick"; t["1"].meta[36] = 0
+t["1"].x[37] = 3; t["1"].y[37] = 4; t["1"].name[37] = "minecraft:stonebrick"; t["1"].meta[37] = 0
+t["1"].x[38] = 3; t["1"].y[38] = 5; t["1"].name[38] = "minecraft:stonebrick"; t["1"].meta[38] = 0
+t["1"].x[39] = 3; t["1"].y[39] = 6; t["1"].name[39] = "minecraft:stonebrick"; t["1"].meta[39] = 0
+t["1"].x[40] = 3; t["1"].y[40] = 7; t["1"].name[40] = "minecraft:grass"; t["1"].meta[40] = 0
+t["1"].x[41] = 3; t["1"].y[41] = 8; t["1"].name[41] = "minecraft:grass"; t["1"].meta[41] = 0
+t["1"].x[42] = 3; t["1"].y[42] = 9; t["1"].name[42] = "minecraft:grass"; t["1"].meta[42] = 0
+t["1"].x[43] = 3; t["1"].y[43] = 10; t["1"].name[43] = "minecraft:grass"; t["1"].meta[43] = 0
+t["1"].x[44] = 3; t["1"].y[44] = 11; t["1"].name[44] = "minecraft:grass"; t["1"].meta[44] = 0
+t["1"].x[45] = 3; t["1"].y[45] = 12; t["1"].name[45] = "minecraft:grass"; t["1"].meta[45] = 0
+t["1"].x[46] = 3; t["1"].y[46] = 13; t["1"].name[46] = "minecraft:grass"; t["1"].meta[46] = 0
+t["1"].x[47] = 3; t["1"].y[47] = 14; t["1"].name[47] = "minecraft:grass"; t["1"].meta[47] = 0
+t["1"].x[48] = 3; t["1"].y[48] = 15; t["1"].name[48] = "minecraft:grass"; t["1"].meta[48] = 0
+t["1"].x[49] = 4; t["1"].y[49] = 0; t["1"].name[49] = "minecraft:stonebrick"; t["1"].meta[49] = 0
+t["1"].x[50] = 4; t["1"].y[50] = 1; t["1"].name[50] = "minecraft:stonebrick"; t["1"].meta[50] = 0
+t["1"].x[51] = 4; t["1"].y[51] = 2; t["1"].name[51] = "minecraft:stonebrick"; t["1"].meta[51] = 0
+t["1"].x[52] = 4; t["1"].y[52] = 3; t["1"].name[52] = "minecraft:stonebrick"; t["1"].meta[52] = 0
+t["1"].x[53] = 4; t["1"].y[53] = 4; t["1"].name[53] = "minecraft:stonebrick"; t["1"].meta[53] = 0
+t["1"].x[54] = 4; t["1"].y[54] = 5; t["1"].name[54] = "minecraft:stonebrick"; t["1"].meta[54] = 0
+t["1"].x[55] = 4; t["1"].y[55] = 6; t["1"].name[55] = "minecraft:stonebrick"; t["1"].meta[55] = 0
+t["1"].x[56] = 4; t["1"].y[56] = 7; t["1"].name[56] = "minecraft:grass"; t["1"].meta[56] = 0
+t["1"].x[57] = 4; t["1"].y[57] = 8; t["1"].name[57] = "minecraft:grass"; t["1"].meta[57] = 0
+t["1"].x[58] = 4; t["1"].y[58] = 9; t["1"].name[58] = "minecraft:grass"; t["1"].meta[58] = 0
+t["1"].x[59] = 4; t["1"].y[59] = 10; t["1"].name[59] = "minecraft:grass"; t["1"].meta[59] = 0
+t["1"].x[60] = 4; t["1"].y[60] = 11; t["1"].name[60] = "minecraft:grass"; t["1"].meta[60] = 0
+t["1"].x[61] = 4; t["1"].y[61] = 12; t["1"].name[61] = "minecraft:grass"; t["1"].meta[61] = 0
+t["1"].x[62] = 4; t["1"].y[62] = 13; t["1"].name[62] = "minecraft:grass"; t["1"].meta[62] = 0
+t["1"].x[63] = 4; t["1"].y[63] = 14; t["1"].name[63] = "minecraft:grass"; t["1"].meta[63] = 0
+t["1"].x[64] = 4; t["1"].y[64] = 15; t["1"].name[64] = "minecraft:grass"; t["1"].meta[64] = 0
+t["1"].x[65] = 5; t["1"].y[65] = 0; t["1"].name[65] = "minecraft:stonebrick"; t["1"].meta[65] = 0
+t["1"].x[66] = 5; t["1"].y[66] = 1; t["1"].name[66] = "minecraft:stonebrick"; t["1"].meta[66] = 0
+t["1"].x[67] = 5; t["1"].y[67] = 2; t["1"].name[67] = "minecraft:stonebrick"; t["1"].meta[67] = 0
+t["1"].x[68] = 5; t["1"].y[68] = 3; t["1"].name[68] = "minecraft:stonebrick"; t["1"].meta[68] = 0
+t["1"].x[69] = 5; t["1"].y[69] = 4; t["1"].name[69] = "minecraft:stonebrick"; t["1"].meta[69] = 0
+t["1"].x[70] = 5; t["1"].y[70] = 5; t["1"].name[70] = "minecraft:stonebrick"; t["1"].meta[70] = 0
+t["1"].x[71] = 5; t["1"].y[71] = 6; t["1"].name[71] = "minecraft:stonebrick"; t["1"].meta[71] = 0
+t["1"].x[72] = 5; t["1"].y[72] = 7; t["1"].name[72] = "minecraft:grass"; t["1"].meta[72] = 0
+t["1"].x[73] = 5; t["1"].y[73] = 8; t["1"].name[73] = "minecraft:grass"; t["1"].meta[73] = 0
+t["1"].x[74] = 5; t["1"].y[74] = 9; t["1"].name[74] = "minecraft:grass"; t["1"].meta[74] = 0
+t["1"].x[75] = 5; t["1"].y[75] = 10; t["1"].name[75] = "minecraft:grass"; t["1"].meta[75] = 0
+t["1"].x[76] = 5; t["1"].y[76] = 11; t["1"].name[76] = "minecraft:grass"; t["1"].meta[76] = 0
+t["1"].x[77] = 5; t["1"].y[77] = 12; t["1"].name[77] = "minecraft:grass"; t["1"].meta[77] = 0
+t["1"].x[78] = 5; t["1"].y[78] = 13; t["1"].name[78] = "minecraft:grass"; t["1"].meta[78] = 0
+t["1"].x[79] = 5; t["1"].y[79] = 14; t["1"].name[79] = "minecraft:grass"; t["1"].meta[79] = 0
+t["1"].x[80] = 5; t["1"].y[80] = 15; t["1"].name[80] = "minecraft:grass"; t["1"].meta[80] = 0
+t["1"].x[81] = 6; t["1"].y[81] = 0; t["1"].name[81] = "minecraft:stonebrick"; t["1"].meta[81] = 0
+t["1"].x[82] = 6; t["1"].y[82] = 1; t["1"].name[82] = "minecraft:stonebrick"; t["1"].meta[82] = 0
+t["1"].x[83] = 6; t["1"].y[83] = 2; t["1"].name[83] = "minecraft:stonebrick"; t["1"].meta[83] = 0
+t["1"].x[84] = 6; t["1"].y[84] = 3; t["1"].name[84] = "minecraft:stonebrick"; t["1"].meta[84] = 0
+t["1"].x[85] = 6; t["1"].y[85] = 4; t["1"].name[85] = "minecraft:stonebrick"; t["1"].meta[85] = 0
+t["1"].x[86] = 6; t["1"].y[86] = 5; t["1"].name[86] = "minecraft:stonebrick"; t["1"].meta[86] = 0
+t["1"].x[87] = 6; t["1"].y[87] = 6; t["1"].name[87] = "minecraft:stonebrick"; t["1"].meta[87] = 0
+t["1"].x[88] = 6; t["1"].y[88] = 7; t["1"].name[88] = "minecraft:grass"; t["1"].meta[88] = 0
+t["1"].x[89] = 6; t["1"].y[89] = 8; t["1"].name[89] = "minecraft:grass"; t["1"].meta[89] = 0
+t["1"].x[90] = 6; t["1"].y[90] = 9; t["1"].name[90] = "minecraft:grass"; t["1"].meta[90] = 0
+t["1"].x[91] = 6; t["1"].y[91] = 10; t["1"].name[91] = "minecraft:grass"; t["1"].meta[91] = 0
+t["1"].x[92] = 6; t["1"].y[92] = 11; t["1"].name[92] = "minecraft:grass"; t["1"].meta[92] = 0
+t["1"].x[93] = 6; t["1"].y[93] = 12; t["1"].name[93] = "minecraft:grass"; t["1"].meta[93] = 0
+t["1"].x[94] = 6; t["1"].y[94] = 13; t["1"].name[94] = "minecraft:grass"; t["1"].meta[94] = 0
+t["1"].x[95] = 6; t["1"].y[95] = 14; t["1"].name[95] = "minecraft:grass"; t["1"].meta[95] = 0
+t["1"].x[96] = 6; t["1"].y[96] = 15; t["1"].name[96] = "minecraft:grass"; t["1"].meta[96] = 0
+t["1"].x[97] = 7; t["1"].y[97] = 0; t["1"].name[97] = "minecraft:stonebrick"; t["1"].meta[97] = 0
+t["1"].x[98] = 7; t["1"].y[98] = 1; t["1"].name[98] = "minecraft:stonebrick"; t["1"].meta[98] = 0
+t["1"].x[99] = 7; t["1"].y[99] = 2; t["1"].name[99] = "minecraft:stonebrick"; t["1"].meta[99] = 0
+t["1"].x[100] = 7; t["1"].y[100] = 3; t["1"].name[100] = "minecraft:stonebrick"; t["1"].meta[100] = 0
+t["1"].x[101] = 7; t["1"].y[101] = 4; t["1"].name[101] = "minecraft:stonebrick"; t["1"].meta[101] = 0
+t["1"].x[102] = 7; t["1"].y[102] = 5; t["1"].name[102] = "minecraft:stonebrick"; t["1"].meta[102] = 0
+t["1"].x[103] = 7; t["1"].y[103] = 6; t["1"].name[103] = "minecraft:stonebrick"; t["1"].meta[103] = 0
+t["1"].x[104] = 7; t["1"].y[104] = 7; t["1"].name[104] = "minecraft:grass"; t["1"].meta[104] = 0
+t["1"].x[105] = 7; t["1"].y[105] = 8; t["1"].name[105] = "minecraft:grass"; t["1"].meta[105] = 0
+t["1"].x[106] = 7; t["1"].y[106] = 9; t["1"].name[106] = "minecraft:grass"; t["1"].meta[106] = 0
+t["1"].x[107] = 7; t["1"].y[107] = 10; t["1"].name[107] = "minecraft:grass"; t["1"].meta[107] = 0
+t["1"].x[108] = 7; t["1"].y[108] = 11; t["1"].name[108] = "minecraft:grass"; t["1"].meta[108] = 0
+t["1"].x[109] = 7; t["1"].y[109] = 12; t["1"].name[109] = "minecraft:grass"; t["1"].meta[109] = 0
+t["1"].x[110] = 7; t["1"].y[110] = 13; t["1"].name[110] = "minecraft:grass"; t["1"].meta[110] = 0
+t["1"].x[111] = 7; t["1"].y[111] = 14; t["1"].name[111] = "minecraft:grass"; t["1"].meta[111] = 0
+t["1"].x[112] = 7; t["1"].y[112] = 15; t["1"].name[112] = "minecraft:grass"; t["1"].meta[112] = 0
+t["1"].x[113] = 8; t["1"].y[113] = 0; t["1"].name[113] = "minecraft:stonebrick"; t["1"].meta[113] = 0
+t["1"].x[114] = 8; t["1"].y[114] = 1; t["1"].name[114] = "minecraft:stonebrick"; t["1"].meta[114] = 0
+t["1"].x[115] = 8; t["1"].y[115] = 2; t["1"].name[115] = "minecraft:stonebrick"; t["1"].meta[115] = 0
+t["1"].x[116] = 8; t["1"].y[116] = 3; t["1"].name[116] = "minecraft:stonebrick"; t["1"].meta[116] = 0
+t["1"].x[117] = 8; t["1"].y[117] = 4; t["1"].name[117] = "minecraft:stonebrick"; t["1"].meta[117] = 0
+t["1"].x[118] = 8; t["1"].y[118] = 5; t["1"].name[118] = "minecraft:stonebrick"; t["1"].meta[118] = 0
+t["1"].x[119] = 8; t["1"].y[119] = 6; t["1"].name[119] = "minecraft:stonebrick"; t["1"].meta[119] = 0
+t["1"].x[120] = 8; t["1"].y[120] = 7; t["1"].name[120] = "minecraft:grass"; t["1"].meta[120] = 0
+t["1"].x[121] = 8; t["1"].y[121] = 8; t["1"].name[121] = "minecraft:grass"; t["1"].meta[121] = 0
+t["1"].x[122] = 8; t["1"].y[122] = 9; t["1"].name[122] = "minecraft:grass"; t["1"].meta[122] = 0
+t["1"].x[123] = 8; t["1"].y[123] = 10; t["1"].name[123] = "minecraft:grass"; t["1"].meta[123] = 0
+t["1"].x[124] = 8; t["1"].y[124] = 11; t["1"].name[124] = "minecraft:grass"; t["1"].meta[124] = 0
+t["1"].x[125] = 8; t["1"].y[125] = 12; t["1"].name[125] = "minecraft:grass"; t["1"].meta[125] = 0
+t["1"].x[126] = 8; t["1"].y[126] = 13; t["1"].name[126] = "minecraft:grass"; t["1"].meta[126] = 0
+t["1"].x[127] = 8; t["1"].y[127] = 14; t["1"].name[127] = "minecraft:grass"; t["1"].meta[127] = 0
+t["1"].x[128] = 8; t["1"].y[128] = 15; t["1"].name[128] = "minecraft:grass"; t["1"].meta[128] = 0
+t["1"].x[129] = 9; t["1"].y[129] = 0; t["1"].name[129] = "minecraft:stonebrick"; t["1"].meta[129] = 0
+t["1"].x[130] = 9; t["1"].y[130] = 1; t["1"].name[130] = "minecraft:stonebrick"; t["1"].meta[130] = 0
+t["1"].x[131] = 9; t["1"].y[131] = 2; t["1"].name[131] = "minecraft:stonebrick"; t["1"].meta[131] = 0
+t["1"].x[132] = 9; t["1"].y[132] = 3; t["1"].name[132] = "minecraft:stonebrick"; t["1"].meta[132] = 0
+t["1"].x[133] = 9; t["1"].y[133] = 4; t["1"].name[133] = "minecraft:stonebrick"; t["1"].meta[133] = 0
+t["1"].x[134] = 9; t["1"].y[134] = 5; t["1"].name[134] = "minecraft:stonebrick"; t["1"].meta[134] = 0
+t["1"].x[135] = 9; t["1"].y[135] = 6; t["1"].name[135] = "minecraft:stonebrick"; t["1"].meta[135] = 0
+t["1"].x[136] = 9; t["1"].y[136] = 7; t["1"].name[136] = "minecraft:grass"; t["1"].meta[136] = 0
+t["1"].x[137] = 9; t["1"].y[137] = 8; t["1"].name[137] = "minecraft:grass"; t["1"].meta[137] = 0
+t["1"].x[138] = 9; t["1"].y[138] = 9; t["1"].name[138] = "minecraft:grass"; t["1"].meta[138] = 0
+t["1"].x[139] = 9; t["1"].y[139] = 10; t["1"].name[139] = "minecraft:grass"; t["1"].meta[139] = 0
+t["1"].x[140] = 9; t["1"].y[140] = 11; t["1"].name[140] = "minecraft:grass"; t["1"].meta[140] = 0
+t["1"].x[141] = 9; t["1"].y[141] = 12; t["1"].name[141] = "minecraft:grass"; t["1"].meta[141] = 0
+t["1"].x[142] = 9; t["1"].y[142] = 13; t["1"].name[142] = "minecraft:grass"; t["1"].meta[142] = 0
+t["1"].x[143] = 9; t["1"].y[143] = 14; t["1"].name[143] = "minecraft:grass"; t["1"].meta[143] = 0
+t["1"].x[144] = 9; t["1"].y[144] = 15; t["1"].name[144] = "minecraft:grass"; t["1"].meta[144] = 0
+t["1"].x[145] = 10; t["1"].y[145] = 0; t["1"].name[145] = "minecraft:stonebrick"; t["1"].meta[145] = 0
+t["1"].x[146] = 10; t["1"].y[146] = 1; t["1"].name[146] = "minecraft:stonebrick"; t["1"].meta[146] = 0
+t["1"].x[147] = 10; t["1"].y[147] = 2; t["1"].name[147] = "minecraft:stonebrick"; t["1"].meta[147] = 0
+t["1"].x[148] = 10; t["1"].y[148] = 3; t["1"].name[148] = "minecraft:stonebrick"; t["1"].meta[148] = 0
+t["1"].x[149] = 10; t["1"].y[149] = 4; t["1"].name[149] = "minecraft:stonebrick"; t["1"].meta[149] = 0
+t["1"].x[150] = 10; t["1"].y[150] = 5; t["1"].name[150] = "minecraft:stonebrick"; t["1"].meta[150] = 0
+t["1"].x[151] = 10; t["1"].y[151] = 6; t["1"].name[151] = "minecraft:stonebrick"; t["1"].meta[151] = 0
+t["1"].x[152] = 10; t["1"].y[152] = 7; t["1"].name[152] = "minecraft:grass"; t["1"].meta[152] = 0
+t["1"].x[153] = 10; t["1"].y[153] = 8; t["1"].name[153] = "minecraft:grass"; t["1"].meta[153] = 0
+t["1"].x[154] = 10; t["1"].y[154] = 9; t["1"].name[154] = "minecraft:grass"; t["1"].meta[154] = 0
+t["1"].x[155] = 10; t["1"].y[155] = 10; t["1"].name[155] = "minecraft:grass"; t["1"].meta[155] = 0
+t["1"].x[156] = 10; t["1"].y[156] = 11; t["1"].name[156] = "minecraft:grass"; t["1"].meta[156] = 0
+t["1"].x[157] = 10; t["1"].y[157] = 12; t["1"].name[157] = "minecraft:grass"; t["1"].meta[157] = 0
+t["1"].x[158] = 10; t["1"].y[158] = 13; t["1"].name[158] = "minecraft:grass"; t["1"].meta[158] = 0
+t["1"].x[159] = 10; t["1"].y[159] = 14; t["1"].name[159] = "minecraft:grass"; t["1"].meta[159] = 0
+t["1"].x[160] = 10; t["1"].y[160] = 15; t["1"].name[160] = "minecraft:grass"; t["1"].meta[160] = 0
+t["1"].x[161] = 11; t["1"].y[161] = 0; t["1"].name[161] = "minecraft:stonebrick"; t["1"].meta[161] = 0
+t["1"].x[162] = 11; t["1"].y[162] = 1; t["1"].name[162] = "minecraft:stonebrick"; t["1"].meta[162] = 0
+t["1"].x[163] = 11; t["1"].y[163] = 2; t["1"].name[163] = "minecraft:stonebrick"; t["1"].meta[163] = 0
+t["1"].x[164] = 11; t["1"].y[164] = 3; t["1"].name[164] = "minecraft:stonebrick"; t["1"].meta[164] = 0
+t["1"].x[165] = 11; t["1"].y[165] = 4; t["1"].name[165] = "minecraft:stonebrick"; t["1"].meta[165] = 0
+t["1"].x[166] = 11; t["1"].y[166] = 5; t["1"].name[166] = "minecraft:stonebrick"; t["1"].meta[166] = 0
+t["1"].x[167] = 11; t["1"].y[167] = 6; t["1"].name[167] = "minecraft:stonebrick"; t["1"].meta[167] = 0
+t["1"].x[168] = 11; t["1"].y[168] = 7; t["1"].name[168] = "minecraft:grass"; t["1"].meta[168] = 0
+t["1"].x[169] = 11; t["1"].y[169] = 8; t["1"].name[169] = "minecraft:grass"; t["1"].meta[169] = 0
+t["1"].x[170] = 11; t["1"].y[170] = 9; t["1"].name[170] = "minecraft:grass"; t["1"].meta[170] = 0
+t["1"].x[171] = 11; t["1"].y[171] = 10; t["1"].name[171] = "minecraft:grass"; t["1"].meta[171] = 0
+t["1"].x[172] = 11; t["1"].y[172] = 11; t["1"].name[172] = "minecraft:grass"; t["1"].meta[172] = 0
+t["1"].x[173] = 11; t["1"].y[173] = 12; t["1"].name[173] = "minecraft:grass"; t["1"].meta[173] = 0
+t["1"].x[174] = 11; t["1"].y[174] = 13; t["1"].name[174] = "minecraft:grass"; t["1"].meta[174] = 0
+t["1"].x[175] = 11; t["1"].y[175] = 14; t["1"].name[175] = "minecraft:grass"; t["1"].meta[175] = 0
+t["1"].x[176] = 11; t["1"].y[176] = 15; t["1"].name[176] = "minecraft:grass"; t["1"].meta[176] = 0
+t["1"].x[177] = 12; t["1"].y[177] = 0; t["1"].name[177] = "minecraft:stonebrick"; t["1"].meta[177] = 0
+t["1"].x[178] = 12; t["1"].y[178] = 1; t["1"].name[178] = "minecraft:stonebrick"; t["1"].meta[178] = 0
+t["1"].x[179] = 12; t["1"].y[179] = 2; t["1"].name[179] = "minecraft:stonebrick"; t["1"].meta[179] = 0
+t["1"].x[180] = 12; t["1"].y[180] = 3; t["1"].name[180] = "minecraft:stonebrick"; t["1"].meta[180] = 0
+t["1"].x[181] = 12; t["1"].y[181] = 4; t["1"].name[181] = "minecraft:stonebrick"; t["1"].meta[181] = 0
+t["1"].x[182] = 12; t["1"].y[182] = 5; t["1"].name[182] = "minecraft:stonebrick"; t["1"].meta[182] = 0
+t["1"].x[183] = 12; t["1"].y[183] = 6; t["1"].name[183] = "minecraft:stonebrick"; t["1"].meta[183] = 0
+t["1"].x[184] = 12; t["1"].y[184] = 7; t["1"].name[184] = "minecraft:grass"; t["1"].meta[184] = 0
+t["1"].x[185] = 12; t["1"].y[185] = 8; t["1"].name[185] = "minecraft:grass"; t["1"].meta[185] = 0
+t["1"].x[186] = 12; t["1"].y[186] = 9; t["1"].name[186] = "minecraft:grass"; t["1"].meta[186] = 0
+t["1"].x[187] = 12; t["1"].y[187] = 10; t["1"].name[187] = "minecraft:grass"; t["1"].meta[187] = 0
+t["1"].x[188] = 12; t["1"].y[188] = 11; t["1"].name[188] = "minecraft:grass"; t["1"].meta[188] = 0
+t["1"].x[189] = 12; t["1"].y[189] = 12; t["1"].name[189] = "minecraft:grass"; t["1"].meta[189] = 0
+t["1"].x[190] = 12; t["1"].y[190] = 13; t["1"].name[190] = "minecraft:grass"; t["1"].meta[190] = 0
+t["1"].x[191] = 12; t["1"].y[191] = 14; t["1"].name[191] = "minecraft:grass"; t["1"].meta[191] = 0
+t["1"].x[192] = 12; t["1"].y[192] = 15; t["1"].name[192] = "minecraft:grass"; t["1"].meta[192] = 0
+t["1"].x[193] = 13; t["1"].y[193] = 0; t["1"].name[193] = "minecraft:stonebrick"; t["1"].meta[193] = 0
+t["1"].x[194] = 13; t["1"].y[194] = 1; t["1"].name[194] = "minecraft:stonebrick"; t["1"].meta[194] = 0
+t["1"].x[195] = 13; t["1"].y[195] = 2; t["1"].name[195] = "minecraft:stonebrick"; t["1"].meta[195] = 0
+t["1"].x[196] = 13; t["1"].y[196] = 3; t["1"].name[196] = "minecraft:stonebrick"; t["1"].meta[196] = 0
+t["1"].x[197] = 13; t["1"].y[197] = 4; t["1"].name[197] = "minecraft:stonebrick"; t["1"].meta[197] = 0
+t["1"].x[198] = 13; t["1"].y[198] = 5; t["1"].name[198] = "minecraft:stonebrick"; t["1"].meta[198] = 0
+t["1"].x[199] = 13; t["1"].y[199] = 6; t["1"].name[199] = "minecraft:stonebrick"; t["1"].meta[199] = 0
+t["1"].x[200] = 13; t["1"].y[200] = 7; t["1"].name[200] = "minecraft:grass"; t["1"].meta[200] = 0
+t["1"].x[201] = 13; t["1"].y[201] = 8; t["1"].name[201] = "minecraft:grass"; t["1"].meta[201] = 0
+t["1"].x[202] = 13; t["1"].y[202] = 9; t["1"].name[202] = "minecraft:grass"; t["1"].meta[202] = 0
+t["1"].x[203] = 13; t["1"].y[203] = 10; t["1"].name[203] = "minecraft:grass"; t["1"].meta[203] = 0
+t["1"].x[204] = 13; t["1"].y[204] = 11; t["1"].name[204] = "minecraft:grass"; t["1"].meta[204] = 0
+t["1"].x[205] = 13; t["1"].y[205] = 12; t["1"].name[205] = "minecraft:grass"; t["1"].meta[205] = 0
+t["1"].x[206] = 13; t["1"].y[206] = 13; t["1"].name[206] = "minecraft:grass"; t["1"].meta[206] = 0
+t["1"].x[207] = 13; t["1"].y[207] = 14; t["1"].name[207] = "minecraft:grass"; t["1"].meta[207] = 0
+t["1"].x[208] = 13; t["1"].y[208] = 15; t["1"].name[208] = "minecraft:grass"; t["1"].meta[208] = 0
+t["1"].x[209] = 14; t["1"].y[209] = 0; t["1"].name[209] = "minecraft:stonebrick"; t["1"].meta[209] = 0
+t["1"].x[210] = 14; t["1"].y[210] = 1; t["1"].name[210] = "minecraft:stonebrick"; t["1"].meta[210] = 0
+t["1"].x[211] = 14; t["1"].y[211] = 2; t["1"].name[211] = "minecraft:stonebrick"; t["1"].meta[211] = 0
+t["1"].x[212] = 14; t["1"].y[212] = 3; t["1"].name[212] = "minecraft:stonebrick"; t["1"].meta[212] = 0
+t["1"].x[213] = 14; t["1"].y[213] = 4; t["1"].name[213] = "minecraft:stonebrick"; t["1"].meta[213] = 0
+t["1"].x[214] = 14; t["1"].y[214] = 5; t["1"].name[214] = "minecraft:stonebrick"; t["1"].meta[214] = 0
+t["1"].x[215] = 14; t["1"].y[215] = 6; t["1"].name[215] = "minecraft:stonebrick"; t["1"].meta[215] = 0
+t["1"].x[216] = 14; t["1"].y[216] = 7; t["1"].name[216] = "minecraft:grass"; t["1"].meta[216] = 0
+t["1"].x[217] = 14; t["1"].y[217] = 8; t["1"].name[217] = "minecraft:grass"; t["1"].meta[217] = 0
+t["1"].x[218] = 14; t["1"].y[218] = 9; t["1"].name[218] = "minecraft:grass"; t["1"].meta[218] = 0
+t["1"].x[219] = 14; t["1"].y[219] = 10; t["1"].name[219] = "minecraft:grass"; t["1"].meta[219] = 0
+t["1"].x[220] = 14; t["1"].y[220] = 11; t["1"].name[220] = "minecraft:grass"; t["1"].meta[220] = 0
+t["1"].x[221] = 14; t["1"].y[221] = 12; t["1"].name[221] = "minecraft:grass"; t["1"].meta[221] = 0
+t["1"].x[222] = 14; t["1"].y[222] = 13; t["1"].name[222] = "minecraft:grass"; t["1"].meta[222] = 0
+t["1"].x[223] = 14; t["1"].y[223] = 14; t["1"].name[223] = "minecraft:grass"; t["1"].meta[223] = 0
+t["1"].x[224] = 14; t["1"].y[224] = 15; t["1"].name[224] = "minecraft:grass"; t["1"].meta[224] = 0
+t["1"].x[225] = 15; t["1"].y[225] = 0; t["1"].name[225] = "minecraft:stonebrick"; t["1"].meta[225] = 0
+t["1"].x[226] = 15; t["1"].y[226] = 1; t["1"].name[226] = "minecraft:stonebrick"; t["1"].meta[226] = 0
+t["1"].x[227] = 15; t["1"].y[227] = 2; t["1"].name[227] = "minecraft:stonebrick"; t["1"].meta[227] = 0
+t["1"].x[228] = 15; t["1"].y[228] = 3; t["1"].name[228] = "minecraft:stonebrick"; t["1"].meta[228] = 0
+t["1"].x[229] = 15; t["1"].y[229] = 4; t["1"].name[229] = "minecraft:stonebrick"; t["1"].meta[229] = 0
+t["1"].x[230] = 15; t["1"].y[230] = 5; t["1"].name[230] = "minecraft:stonebrick"; t["1"].meta[230] = 0
+t["1"].x[231] = 15; t["1"].y[231] = 6; t["1"].name[231] = "minecraft:stonebrick"; t["1"].meta[231] = 0
+t["1"].x[232] = 15; t["1"].y[232] = 7; t["1"].name[232] = "minecraft:grass"; t["1"].meta[232] = 0
+t["1"].x[233] = 15; t["1"].y[233] = 8; t["1"].name[233] = "minecraft:grass"; t["1"].meta[233] = 0
+t["1"].x[234] = 15; t["1"].y[234] = 9; t["1"].name[234] = "minecraft:grass"; t["1"].meta[234] = 0
+t["1"].x[235] = 15; t["1"].y[235] = 10; t["1"].name[235] = "minecraft:grass"; t["1"].meta[235] = 0
+t["1"].x[236] = 15; t["1"].y[236] = 11; t["1"].name[236] = "minecraft:grass"; t["1"].meta[236] = 0
+t["1"].x[237] = 15; t["1"].y[237] = 12; t["1"].name[237] = "minecraft:grass"; t["1"].meta[237] = 0
+t["1"].x[238] = 15; t["1"].y[238] = 13; t["1"].name[238] = "minecraft:grass"; t["1"].meta[238] = 0
+t["1"].x[239] = 15; t["1"].y[239] = 14; t["1"].name[239] = "minecraft:grass"; t["1"].meta[239] = 0
+t["1"].x[240] = 15; t["1"].y[240] = 15; t["1"].name[240] = "minecraft:grass"; t["1"].meta[240] = 0
+t["1"].x[241] = 16; t["1"].y[241] = 0; t["1"].name[241] = "minecraft:stonebrick"; t["1"].meta[241] = 0
+t["1"].x[242] = 16; t["1"].y[242] = 1; t["1"].name[242] = "minecraft:stonebrick"; t["1"].meta[242] = 0
+t["1"].x[243] = 16; t["1"].y[243] = 2; t["1"].name[243] = "minecraft:stonebrick"; t["1"].meta[243] = 0
+t["1"].x[244] = 16; t["1"].y[244] = 3; t["1"].name[244] = "minecraft:stonebrick"; t["1"].meta[244] = 0
+t["1"].x[245] = 16; t["1"].y[245] = 4; t["1"].name[245] = "minecraft:stonebrick"; t["1"].meta[245] = 0
+t["1"].x[246] = 16; t["1"].y[246] = 5; t["1"].name[246] = "minecraft:stonebrick"; t["1"].meta[246] = 0
+t["1"].x[247] = 16; t["1"].y[247] = 6; t["1"].name[247] = "minecraft:stonebrick"; t["1"].meta[247] = 0
+t["1"].x[248] = 16; t["1"].y[248] = 7; t["1"].name[248] = "minecraft:grass"; t["1"].meta[248] = 0
+t["1"].x[249] = 16; t["1"].y[249] = 8; t["1"].name[249] = "minecraft:grass"; t["1"].meta[249] = 0
+t["1"].x[250] = 16; t["1"].y[250] = 9; t["1"].name[250] = "minecraft:grass"; t["1"].meta[250] = 0
+t["1"].x[251] = 16; t["1"].y[251] = 10; t["1"].name[251] = "minecraft:grass"; t["1"].meta[251] = 0
+t["1"].x[252] = 16; t["1"].y[252] = 11; t["1"].name[252] = "minecraft:grass"; t["1"].meta[252] = 0
+t["1"].x[253] = 16; t["1"].y[253] = 12; t["1"].name[253] = "minecraft:grass"; t["1"].meta[253] = 0
+t["1"].x[254] = 16; t["1"].y[254] = 13; t["1"].name[254] = "minecraft:grass"; t["1"].meta[254] = 0
+t["1"].x[255] = 16; t["1"].y[255] = 14; t["1"].name[255] = "minecraft:grass"; t["1"].meta[255] = 0
+t["1"].x[256] = 16; t["1"].y[256] = 15; t["1"].name[256] = "minecraft:grass"; t["1"].meta[256] = 0
+t["2"].x[1] = 1; t["2"].y[1] = 5; t["2"].name[1] = "minecraft:planks"; t["2"].meta[1] = 1
+t["2"].x[2] = 1; t["2"].y[2] = 6; t["2"].name[2] = "minecraft:stonebrick"; t["2"].meta[2] = 0
+t["2"].x[3] = 1; t["2"].y[3] = 7; t["2"].name[3] = "minecraft:stone_slab"; t["2"].meta[3] = 11
+t["2"].x[4] = 2; t["2"].y[4] = 5; t["2"].name[4] = "minecraft:planks"; t["2"].meta[4] = 1
+t["2"].x[5] = 2; t["2"].y[5] = 6; t["2"].name[5] = "minecraft:stonebrick"; t["2"].meta[5] = 0
+t["2"].x[6] = 2; t["2"].y[6] = 7; t["2"].name[6] = "minecraft:stone_stairs"; t["2"].meta[6] = 7
+t["2"].x[7] = 3; t["2"].y[7] = 4; t["2"].name[7] = "minecraft:spruce_stairs"; t["2"].meta[7] = 2
+t["2"].x[8] = 3; t["2"].y[8] = 5; t["2"].name[8] = "minecraft:wool"; t["2"].meta[8] = 0
+t["2"].x[9] = 3; t["2"].y[9] = 6; t["2"].name[9] = "minecraft:stonebrick"; t["2"].meta[9] = 0
+t["2"].x[10] = 4; t["2"].y[10] = 4; t["2"].name[10] = "minecraft:spruce_stairs"; t["2"].meta[10] = 2
+t["2"].x[11] = 4; t["2"].y[11] = 5; t["2"].name[11] = "minecraft:wool"; t["2"].meta[11] = 0
+t["2"].x[12] = 4; t["2"].y[12] = 6; t["2"].name[12] = "minecraft:stonebrick"; t["2"].meta[12] = 0
+t["2"].x[13] = 5; t["2"].y[13] = 4; t["2"].name[13] = "minecraft:spruce_stairs"; t["2"].meta[13] = 2
+t["2"].x[14] = 5; t["2"].y[14] = 5; t["2"].name[14] = "minecraft:wool"; t["2"].meta[14] = 0
+t["2"].x[15] = 5; t["2"].y[15] = 6; t["2"].name[15] = "minecraft:stonebrick"; t["2"].meta[15] = 0
+t["2"].x[16] = 6; t["2"].y[16] = 4; t["2"].name[16] = "minecraft:spruce_stairs"; t["2"].meta[16] = 2
+t["2"].x[17] = 6; t["2"].y[17] = 5; t["2"].name[17] = "minecraft:planks"; t["2"].meta[17] = 1
+t["2"].x[18] = 6; t["2"].y[18] = 6; t["2"].name[18] = "minecraft:stonebrick"; t["2"].meta[18] = 0
+t["2"].x[19] = 7; t["2"].y[19] = 5; t["2"].name[19] = "minecraft:planks"; t["2"].meta[19] = 1
+t["2"].x[20] = 7; t["2"].y[20] = 6; t["2"].name[20] = "minecraft:cobblestone"; t["2"].meta[20] = 0
+t["2"].x[21] = 7; t["2"].y[21] = 7; t["2"].name[21] = "minecraft:stone_stairs"; t["2"].meta[21] = 7
+t["2"].x[22] = 8; t["2"].y[22] = 5; t["2"].name[22] = "minecraft:planks"; t["2"].meta[22] = 1
+t["2"].x[23] = 8; t["2"].y[23] = 6; t["2"].name[23] = "minecraft:cobblestone"; t["2"].meta[23] = 0
+t["2"].x[24] = 8; t["2"].y[24] = 7; t["2"].name[24] = "minecraft:stone_slab"; t["2"].meta[24] = 11
+t["2"].x[25] = 9; t["2"].y[25] = 5; t["2"].name[25] = "minecraft:planks"; t["2"].meta[25] = 1
+t["2"].x[26] = 9; t["2"].y[26] = 6; t["2"].name[26] = "minecraft:cobblestone"; t["2"].meta[26] = 0
+t["2"].x[27] = 9; t["2"].y[27] = 7; t["2"].name[27] = "minecraft:stone_stairs"; t["2"].meta[27] = 7
+t["2"].x[28] = 10; t["2"].y[28] = 4; t["2"].name[28] = "minecraft:spruce_stairs"; t["2"].meta[28] = 2
+t["2"].x[29] = 10; t["2"].y[29] = 5; t["2"].name[29] = "minecraft:planks"; t["2"].meta[29] = 1
+t["2"].x[30] = 10; t["2"].y[30] = 6; t["2"].name[30] = "minecraft:stonebrick"; t["2"].meta[30] = 0
+t["2"].x[31] = 11; t["2"].y[31] = 4; t["2"].name[31] = "minecraft:spruce_stairs"; t["2"].meta[31] = 2
+t["2"].x[32] = 11; t["2"].y[32] = 5; t["2"].name[32] = "minecraft:wool"; t["2"].meta[32] = 0
+t["2"].x[33] = 11; t["2"].y[33] = 6; t["2"].name[33] = "minecraft:stonebrick"; t["2"].meta[33] = 0
+t["2"].x[34] = 12; t["2"].y[34] = 4; t["2"].name[34] = "minecraft:spruce_stairs"; t["2"].meta[34] = 2
+t["2"].x[35] = 12; t["2"].y[35] = 5; t["2"].name[35] = "minecraft:wool"; t["2"].meta[35] = 0
+t["2"].x[36] = 12; t["2"].y[36] = 6; t["2"].name[36] = "minecraft:stonebrick"; t["2"].meta[36] = 0
+t["2"].x[37] = 13; t["2"].y[37] = 4; t["2"].name[37] = "minecraft:spruce_stairs"; t["2"].meta[37] = 2
+t["2"].x[38] = 13; t["2"].y[38] = 5; t["2"].name[38] = "minecraft:planks"; t["2"].meta[38] = 1
+t["2"].x[39] = 13; t["2"].y[39] = 6; t["2"].name[39] = "minecraft:stonebrick"; t["2"].meta[39] = 0
+t["2"].x[40] = 14; t["2"].y[40] = 5; t["2"].name[40] = "minecraft:planks"; t["2"].meta[40] = 1
+t["2"].x[41] = 14; t["2"].y[41] = 6; t["2"].name[41] = "minecraft:cobblestone"; t["2"].meta[41] = 0
+t["2"].x[42] = 14; t["2"].y[42] = 7; t["2"].name[42] = "minecraft:stone_stairs"; t["2"].meta[42] = 7
+t["2"].x[43] = 15; t["2"].y[43] = 5; t["2"].name[43] = "minecraft:planks"; t["2"].meta[43] = 1
+t["2"].x[44] = 15; t["2"].y[44] = 6; t["2"].name[44] = "minecraft:cobblestone"; t["2"].meta[44] = 0
+t["2"].x[45] = 15; t["2"].y[45] = 7; t["2"].name[45] = "minecraft:stone_slab"; t["2"].meta[45] = 11
+t["2"].x[46] = 16; t["2"].y[46] = 5; t["2"].name[46] = "minecraft:planks"; t["2"].meta[46] = 1
+t["2"].x[47] = 16; t["2"].y[47] = 6; t["2"].name[47] = "minecraft:cobblestone"; t["2"].meta[47] = 0
+t["2"].x[48] = 16; t["2"].y[48] = 7; t["2"].name[48] = "minecraft:stone_stairs"; t["2"].meta[48] = 7
+t["3"].x[1] = 1; t["3"].y[1] = 6; t["3"].name[1] = "minecraft:glass_pane"; t["3"].meta[1] = 0
+t["3"].x[2] = 2; t["3"].y[2] = 6; t["3"].name[2] = "minecraft:glass_pane"; t["3"].meta[2] = 0
+t["3"].x[3] = 2; t["3"].y[3] = 7; t["3"].name[3] = "minecraft:cobblestone_wall"; t["3"].meta[3] = 0
+t["3"].x[4] = 3; t["3"].y[4] = 5; t["3"].name[4] = "minecraft:wool"; t["3"].meta[4] = 0
+t["3"].x[5] = 3; t["3"].y[5] = 6; t["3"].name[5] = "minecraft:stonebrick"; t["3"].meta[5] = 0
+t["3"].x[6] = 4; t["3"].y[6] = 5; t["3"].name[6] = "minecraft:wool"; t["3"].meta[6] = 0
+t["3"].x[7] = 4; t["3"].y[7] = 6; t["3"].name[7] = "minecraft:stonebrick"; t["3"].meta[7] = 0
+t["3"].x[8] = 5; t["3"].y[8] = 5; t["3"].name[8] = "minecraft:wool"; t["3"].meta[8] = 0
+t["3"].x[9] = 5; t["3"].y[9] = 6; t["3"].name[9] = "minecraft:stonebrick"; t["3"].meta[9] = 0
+t["3"].x[10] = 6; t["3"].y[10] = 5; t["3"].name[10] = "minecraft:wool"; t["3"].meta[10] = 0
+t["3"].x[11] = 6; t["3"].y[11] = 6; t["3"].name[11] = "minecraft:stonebrick"; t["3"].meta[11] = 0
+t["3"].x[12] = 7; t["3"].y[12] = 6; t["3"].name[12] = "minecraft:glass_pane"; t["3"].meta[12] = 0
+t["3"].x[13] = 7; t["3"].y[13] = 7; t["3"].name[13] = "minecraft:cobblestone_wall"; t["3"].meta[13] = 0
+t["3"].x[14] = 8; t["3"].y[14] = 6; t["3"].name[14] = "minecraft:glass_pane"; t["3"].meta[14] = 0
+t["3"].x[15] = 9; t["3"].y[15] = 6; t["3"].name[15] = "minecraft:glass_pane"; t["3"].meta[15] = 0
+t["3"].x[16] = 9; t["3"].y[16] = 7; t["3"].name[16] = "minecraft:cobblestone_wall"; t["3"].meta[16] = 0
+t["3"].x[17] = 10; t["3"].y[17] = 5; t["3"].name[17] = "minecraft:wool"; t["3"].meta[17] = 0
+t["3"].x[18] = 10; t["3"].y[18] = 6; t["3"].name[18] = "minecraft:stonebrick"; t["3"].meta[18] = 0
+t["3"].x[19] = 11; t["3"].y[19] = 5; t["3"].name[19] = "minecraft:wool"; t["3"].meta[19] = 0
+t["3"].x[20] = 11; t["3"].y[20] = 6; t["3"].name[20] = "minecraft:stonebrick"; t["3"].meta[20] = 0
+t["3"].x[21] = 12; t["3"].y[21] = 5; t["3"].name[21] = "minecraft:wool"; t["3"].meta[21] = 0
+t["3"].x[22] = 12; t["3"].y[22] = 6; t["3"].name[22] = "minecraft:stonebrick"; t["3"].meta[22] = 0
+t["3"].x[23] = 13; t["3"].y[23] = 5; t["3"].name[23] = "minecraft:wool"; t["3"].meta[23] = 0
+t["3"].x[24] = 13; t["3"].y[24] = 6; t["3"].name[24] = "minecraft:stonebrick"; t["3"].meta[24] = 0
+t["3"].x[25] = 14; t["3"].y[25] = 6; t["3"].name[25] = "minecraft:glass_pane"; t["3"].meta[25] = 0
+t["3"].x[26] = 14; t["3"].y[26] = 7; t["3"].name[26] = "minecraft:cobblestone_wall"; t["3"].meta[26] = 0
+t["3"].x[27] = 15; t["3"].y[27] = 6; t["3"].name[27] = "minecraft:glass_pane"; t["3"].meta[27] = 0
+t["3"].x[28] = 16; t["3"].y[28] = 6; t["3"].name[28] = "minecraft:glass_pane"; t["3"].meta[28] = 0
+t["3"].x[29] = 16; t["3"].y[29] = 7; t["3"].name[29] = "minecraft:cobblestone_wall"; t["3"].meta[29] = 0
+t["4"].x[1] = 1; t["4"].y[1] = 6; t["4"].name[1] = "minecraft:glass_pane"; t["4"].meta[1] = 0
+t["4"].x[2] = 2; t["4"].y[2] = 6; t["4"].name[2] = "minecraft:glass_pane"; t["4"].meta[2] = 0
+t["4"].x[3] = 2; t["4"].y[3] = 7; t["4"].name[3] = "minecraft:cobblestone_wall"; t["4"].meta[3] = 0
+t["4"].x[4] = 3; t["4"].y[4] = 5; t["4"].name[4] = "minecraft:wool"; t["4"].meta[4] = 0
+t["4"].x[5] = 3; t["4"].y[5] = 6; t["4"].name[5] = "minecraft:stonebrick"; t["4"].meta[5] = 0
+t["4"].x[6] = 4; t["4"].y[6] = 5; t["4"].name[6] = "minecraft:wool"; t["4"].meta[6] = 0
+t["4"].x[7] = 4; t["4"].y[7] = 6; t["4"].name[7] = "minecraft:stonebrick"; t["4"].meta[7] = 0
+t["4"].x[8] = 5; t["4"].y[8] = 5; t["4"].name[8] = "minecraft:wool"; t["4"].meta[8] = 0
+t["4"].x[9] = 5; t["4"].y[9] = 6; t["4"].name[9] = "minecraft:stonebrick"; t["4"].meta[9] = 0
+t["4"].x[10] = 6; t["4"].y[10] = 5; t["4"].name[10] = "minecraft:wool"; t["4"].meta[10] = 0
+t["4"].x[11] = 6; t["4"].y[11] = 6; t["4"].name[11] = "minecraft:stonebrick"; t["4"].meta[11] = 0
+t["4"].x[12] = 7; t["4"].y[12] = 6; t["4"].name[12] = "minecraft:glass_pane"; t["4"].meta[12] = 0
+t["4"].x[13] = 7; t["4"].y[13] = 7; t["4"].name[13] = "minecraft:cobblestone_wall"; t["4"].meta[13] = 0
+t["4"].x[14] = 8; t["4"].y[14] = 6; t["4"].name[14] = "minecraft:glass_pane"; t["4"].meta[14] = 0
+t["4"].x[15] = 9; t["4"].y[15] = 6; t["4"].name[15] = "minecraft:glass_pane"; t["4"].meta[15] = 0
+t["4"].x[16] = 9; t["4"].y[16] = 7; t["4"].name[16] = "minecraft:cobblestone_wall"; t["4"].meta[16] = 0
+t["4"].x[17] = 10; t["4"].y[17] = 5; t["4"].name[17] = "minecraft:wool"; t["4"].meta[17] = 0
+t["4"].x[18] = 10; t["4"].y[18] = 6; t["4"].name[18] = "minecraft:stonebrick"; t["4"].meta[18] = 0
+t["4"].x[19] = 11; t["4"].y[19] = 5; t["4"].name[19] = "minecraft:wool"; t["4"].meta[19] = 0
+t["4"].x[20] = 11; t["4"].y[20] = 6; t["4"].name[20] = "minecraft:stonebrick"; t["4"].meta[20] = 0
+t["4"].x[21] = 12; t["4"].y[21] = 5; t["4"].name[21] = "minecraft:wool"; t["4"].meta[21] = 0
+t["4"].x[22] = 12; t["4"].y[22] = 6; t["4"].name[22] = "minecraft:stonebrick"; t["4"].meta[22] = 0
+t["4"].x[23] = 13; t["4"].y[23] = 5; t["4"].name[23] = "minecraft:wool"; t["4"].meta[23] = 0
+t["4"].x[24] = 13; t["4"].y[24] = 6; t["4"].name[24] = "minecraft:stonebrick"; t["4"].meta[24] = 0
+t["4"].x[25] = 14; t["4"].y[25] = 6; t["4"].name[25] = "minecraft:glass_pane"; t["4"].meta[25] = 0
+t["4"].x[26] = 14; t["4"].y[26] = 7; t["4"].name[26] = "minecraft:cobblestone_wall"; t["4"].meta[26] = 0
+t["4"].x[27] = 15; t["4"].y[27] = 6; t["4"].name[27] = "minecraft:glass_pane"; t["4"].meta[27] = 0
+t["4"].x[28] = 16; t["4"].y[28] = 6; t["4"].name[28] = "minecraft:glass_pane"; t["4"].meta[28] = 0
+t["4"].x[29] = 16; t["4"].y[29] = 7; t["4"].name[29] = "minecraft:cobblestone_wall"; t["4"].meta[29] = 0
+t["5"].x[1] = 1; t["5"].y[1] = 6; t["5"].name[1] = "minecraft:glass_pane"; t["5"].meta[1] = 0
+t["5"].x[2] = 2; t["5"].y[2] = 6; t["5"].name[2] = "minecraft:stone_stairs"; t["5"].meta[2] = 4
+t["5"].x[3] = 2; t["5"].y[3] = 7; t["5"].name[3] = "minecraft:stone_stairs"; t["5"].meta[3] = 1
+t["5"].x[4] = 3; t["5"].y[4] = 5; t["5"].name[4] = "minecraft:wool"; t["5"].meta[4] = 0
+t["5"].x[5] = 3; t["5"].y[5] = 6; t["5"].name[5] = "minecraft:stonebrick"; t["5"].meta[5] = 0
+t["5"].x[6] = 4; t["5"].y[6] = 5; t["5"].name[6] = "minecraft:wool"; t["5"].meta[6] = 0
+t["5"].x[7] = 4; t["5"].y[7] = 6; t["5"].name[7] = "minecraft:stonebrick"; t["5"].meta[7] = 0
+t["5"].x[8] = 5; t["5"].y[8] = 5; t["5"].name[8] = "minecraft:wool"; t["5"].meta[8] = 0
+t["5"].x[9] = 5; t["5"].y[9] = 6; t["5"].name[9] = "minecraft:stonebrick"; t["5"].meta[9] = 0
+t["5"].x[10] = 6; t["5"].y[10] = 5; t["5"].name[10] = "minecraft:wool"; t["5"].meta[10] = 0
+t["5"].x[11] = 6; t["5"].y[11] = 6; t["5"].name[11] = "minecraft:stonebrick"; t["5"].meta[11] = 0
+t["5"].x[12] = 7; t["5"].y[12] = 6; t["5"].name[12] = "minecraft:stone_stairs"; t["5"].meta[12] = 5
+t["5"].x[13] = 7; t["5"].y[13] = 7; t["5"].name[13] = "minecraft:stone_stairs"; t["5"].meta[13] = 0
+t["5"].x[14] = 8; t["5"].y[14] = 6; t["5"].name[14] = "minecraft:glass_pane"; t["5"].meta[14] = 0
+t["5"].x[15] = 9; t["5"].y[15] = 6; t["5"].name[15] = "minecraft:stone_stairs"; t["5"].meta[15] = 4
+t["5"].x[16] = 9; t["5"].y[16] = 7; t["5"].name[16] = "minecraft:stone_stairs"; t["5"].meta[16] = 1
+t["5"].x[17] = 10; t["5"].y[17] = 5; t["5"].name[17] = "minecraft:wool"; t["5"].meta[17] = 0
+t["5"].x[18] = 10; t["5"].y[18] = 6; t["5"].name[18] = "minecraft:stonebrick"; t["5"].meta[18] = 0
+t["5"].x[19] = 11; t["5"].y[19] = 5; t["5"].name[19] = "minecraft:wool"; t["5"].meta[19] = 0
+t["5"].x[20] = 11; t["5"].y[20] = 6; t["5"].name[20] = "minecraft:stonebrick"; t["5"].meta[20] = 0
+t["5"].x[21] = 12; t["5"].y[21] = 5; t["5"].name[21] = "minecraft:wool"; t["5"].meta[21] = 0
+t["5"].x[22] = 12; t["5"].y[22] = 6; t["5"].name[22] = "minecraft:stonebrick"; t["5"].meta[22] = 0
+t["5"].x[23] = 13; t["5"].y[23] = 5; t["5"].name[23] = "minecraft:wool"; t["5"].meta[23] = 0
+t["5"].x[24] = 13; t["5"].y[24] = 6; t["5"].name[24] = "minecraft:stonebrick"; t["5"].meta[24] = 0
+t["5"].x[25] = 14; t["5"].y[25] = 6; t["5"].name[25] = "minecraft:stone_stairs"; t["5"].meta[25] = 5
+t["5"].x[26] = 14; t["5"].y[26] = 7; t["5"].name[26] = "minecraft:stone_stairs"; t["5"].meta[26] = 0
+t["5"].x[27] = 15; t["5"].y[27] = 6; t["5"].name[27] = "minecraft:glass_pane"; t["5"].meta[27] = 0
+t["5"].x[28] = 16; t["5"].y[28] = 6; t["5"].name[28] = "minecraft:stone_stairs"; t["5"].meta[28] = 4
+t["5"].x[29] = 16; t["5"].y[29] = 7; t["5"].name[29] = "minecraft:stone_stairs"; t["5"].meta[29] = 1
+t["6"].x[1] = 1; t["6"].y[1] = 5; t["6"].name[1] = "minecraft:spruce_stairs"; t["6"].meta[1] = 6
+t["6"].x[2] = 1; t["6"].y[2] = 6; t["6"].name[2] = "minecraft:stonebrick"; t["6"].meta[2] = 0
+t["6"].x[3] = 1; t["6"].y[3] = 7; t["6"].name[3] = "minecraft:stone_slab"; t["6"].meta[3] = 3
+t["6"].x[4] = 2; t["6"].y[4] = 5; t["6"].name[4] = "minecraft:spruce_stairs"; t["6"].meta[4] = 6
+t["6"].x[5] = 2; t["6"].y[5] = 6; t["6"].name[5] = "minecraft:stonebrick"; t["6"].meta[5] = 0
+t["6"].x[6] = 3; t["6"].y[6] = 5; t["6"].name[6] = "minecraft:wool"; t["6"].meta[6] = 0
+t["6"].x[7] = 3; t["6"].y[7] = 6; t["6"].name[7] = "minecraft:stonebrick"; t["6"].meta[7] = 0
+t["6"].x[8] = 4; t["6"].y[8] = 5; t["6"].name[8] = "minecraft:wool"; t["6"].meta[8] = 0
+t["6"].x[9] = 4; t["6"].y[9] = 6; t["6"].name[9] = "minecraft:stonebrick"; t["6"].meta[9] = 0
+t["6"].x[10] = 5; t["6"].y[10] = 5; t["6"].name[10] = "minecraft:wool"; t["6"].meta[10] = 0
+t["6"].x[11] = 5; t["6"].y[11] = 6; t["6"].name[11] = "minecraft:stonebrick"; t["6"].meta[11] = 0
+t["6"].x[12] = 6; t["6"].y[12] = 5; t["6"].name[12] = "minecraft:wool"; t["6"].meta[12] = 0
+t["6"].x[13] = 6; t["6"].y[13] = 6; t["6"].name[13] = "minecraft:stonebrick"; t["6"].meta[13] = 0
+t["6"].x[14] = 7; t["6"].y[14] = 5; t["6"].name[14] = "minecraft:spruce_stairs"; t["6"].meta[14] = 6
+t["6"].x[15] = 7; t["6"].y[15] = 6; t["6"].name[15] = "minecraft:stonebrick"; t["6"].meta[15] = 0
+t["6"].x[16] = 8; t["6"].y[16] = 5; t["6"].name[16] = "minecraft:spruce_stairs"; t["6"].meta[16] = 6
+t["6"].x[17] = 8; t["6"].y[17] = 6; t["6"].name[17] = "minecraft:stonebrick"; t["6"].meta[17] = 0
+t["6"].x[18] = 8; t["6"].y[18] = 7; t["6"].name[18] = "minecraft:stone_slab"; t["6"].meta[18] = 3
+t["6"].x[19] = 9; t["6"].y[19] = 5; t["6"].name[19] = "minecraft:spruce_stairs"; t["6"].meta[19] = 6
+t["6"].x[20] = 9; t["6"].y[20] = 6; t["6"].name[20] = "minecraft:stonebrick"; t["6"].meta[20] = 0
+t["6"].x[21] = 10; t["6"].y[21] = 5; t["6"].name[21] = "minecraft:wool"; t["6"].meta[21] = 0
+t["6"].x[22] = 10; t["6"].y[22] = 6; t["6"].name[22] = "minecraft:stonebrick"; t["6"].meta[22] = 0
+t["6"].x[23] = 11; t["6"].y[23] = 5; t["6"].name[23] = "minecraft:wool"; t["6"].meta[23] = 0
+t["6"].x[24] = 11; t["6"].y[24] = 6; t["6"].name[24] = "minecraft:stonebrick"; t["6"].meta[24] = 0
+t["6"].x[25] = 12; t["6"].y[25] = 5; t["6"].name[25] = "minecraft:wool"; t["6"].meta[25] = 0
+t["6"].x[26] = 12; t["6"].y[26] = 6; t["6"].name[26] = "minecraft:stonebrick"; t["6"].meta[26] = 0
+t["6"].x[27] = 13; t["6"].y[27] = 5; t["6"].name[27] = "minecraft:wool"; t["6"].meta[27] = 0
+t["6"].x[28] = 13; t["6"].y[28] = 6; t["6"].name[28] = "minecraft:stonebrick"; t["6"].meta[28] = 0
+t["6"].x[29] = 14; t["6"].y[29] = 5; t["6"].name[29] = "minecraft:spruce_stairs"; t["6"].meta[29] = 6
+t["6"].x[30] = 14; t["6"].y[30] = 6; t["6"].name[30] = "minecraft:stonebrick"; t["6"].meta[30] = 0
+t["6"].x[31] = 15; t["6"].y[31] = 5; t["6"].name[31] = "minecraft:spruce_stairs"; t["6"].meta[31] = 6
+t["6"].x[32] = 15; t["6"].y[32] = 6; t["6"].name[32] = "minecraft:stonebrick"; t["6"].meta[32] = 0
+t["6"].x[33] = 15; t["6"].y[33] = 7; t["6"].name[33] = "minecraft:stone_slab"; t["6"].meta[33] = 3
+t["6"].x[34] = 16; t["6"].y[34] = 5; t["6"].name[34] = "minecraft:spruce_stairs"; t["6"].meta[34] = 6
+t["6"].x[35] = 16; t["6"].y[35] = 6; t["6"].name[35] = "minecraft:stonebrick"; t["6"].meta[35] = 0
+t["7"].x[1] = 1; t["7"].y[1] = 4; t["7"].name[1] = "minecraft:spruce_stairs"; t["7"].meta[1] = 6
+t["7"].x[2] = 1; t["7"].y[2] = 5; t["7"].name[2] = "minecraft:wool"; t["7"].meta[2] = 0
+t["7"].x[3] = 1; t["7"].y[3] = 6; t["7"].name[3] = "minecraft:stonebrick"; t["7"].meta[3] = 0
+t["7"].x[4] = 1; t["7"].y[4] = 7; t["7"].name[4] = "minecraft:nether_brick_stairs"; t["7"].meta[4] = 3
+t["7"].x[5] = 2; t["7"].y[5] = 4; t["7"].name[5] = "minecraft:spruce_stairs"; t["7"].meta[5] = 6
+t["7"].x[6] = 2; t["7"].y[6] = 5; t["7"].name[6] = "minecraft:wool"; t["7"].meta[6] = 0
+t["7"].x[7] = 2; t["7"].y[7] = 6; t["7"].name[7] = "minecraft:stonebrick"; t["7"].meta[7] = 0
+t["7"].x[8] = 2; t["7"].y[8] = 7; t["7"].name[8] = "minecraft:nether_brick_stairs"; t["7"].meta[8] = 3
+t["7"].x[9] = 3; t["7"].y[9] = 4; t["7"].name[9] = "minecraft:spruce_stairs"; t["7"].meta[9] = 6
+t["7"].x[10] = 3; t["7"].y[10] = 5; t["7"].name[10] = "minecraft:wool"; t["7"].meta[10] = 0
+t["7"].x[11] = 3; t["7"].y[11] = 6; t["7"].name[11] = "minecraft:stonebrick"; t["7"].meta[11] = 0
+t["7"].x[12] = 3; t["7"].y[12] = 7; t["7"].name[12] = "minecraft:nether_brick_stairs"; t["7"].meta[12] = 3
+t["7"].x[13] = 4; t["7"].y[13] = 4; t["7"].name[13] = "minecraft:spruce_stairs"; t["7"].meta[13] = 6
+t["7"].x[14] = 4; t["7"].y[14] = 5; t["7"].name[14] = "minecraft:wool"; t["7"].meta[14] = 0
+t["7"].x[15] = 4; t["7"].y[15] = 6; t["7"].name[15] = "minecraft:stonebrick"; t["7"].meta[15] = 0
+t["7"].x[16] = 4; t["7"].y[16] = 7; t["7"].name[16] = "minecraft:nether_brick_stairs"; t["7"].meta[16] = 3
+t["7"].x[17] = 5; t["7"].y[17] = 4; t["7"].name[17] = "minecraft:spruce_stairs"; t["7"].meta[17] = 6
+t["7"].x[18] = 5; t["7"].y[18] = 5; t["7"].name[18] = "minecraft:wool"; t["7"].meta[18] = 0
+t["7"].x[19] = 5; t["7"].y[19] = 6; t["7"].name[19] = "minecraft:stonebrick"; t["7"].meta[19] = 0
+t["7"].x[20] = 5; t["7"].y[20] = 7; t["7"].name[20] = "minecraft:nether_brick_stairs"; t["7"].meta[20] = 3
+t["7"].x[21] = 6; t["7"].y[21] = 4; t["7"].name[21] = "minecraft:spruce_stairs"; t["7"].meta[21] = 6
+t["7"].x[22] = 6; t["7"].y[22] = 5; t["7"].name[22] = "minecraft:wool"; t["7"].meta[22] = 0
+t["7"].x[23] = 6; t["7"].y[23] = 6; t["7"].name[23] = "minecraft:stonebrick"; t["7"].meta[23] = 0
+t["7"].x[24] = 6; t["7"].y[24] = 7; t["7"].name[24] = "minecraft:nether_brick_stairs"; t["7"].meta[24] = 3
+t["7"].x[25] = 7; t["7"].y[25] = 4; t["7"].name[25] = "minecraft:spruce_stairs"; t["7"].meta[25] = 6
+t["7"].x[26] = 7; t["7"].y[26] = 5; t["7"].name[26] = "minecraft:wool"; t["7"].meta[26] = 0
+t["7"].x[27] = 7; t["7"].y[27] = 6; t["7"].name[27] = "minecraft:stonebrick"; t["7"].meta[27] = 0
+t["7"].x[28] = 7; t["7"].y[28] = 7; t["7"].name[28] = "minecraft:nether_brick_stairs"; t["7"].meta[28] = 3
+t["7"].x[29] = 8; t["7"].y[29] = 4; t["7"].name[29] = "minecraft:spruce_stairs"; t["7"].meta[29] = 6
+t["7"].x[30] = 8; t["7"].y[30] = 5; t["7"].name[30] = "minecraft:wool"; t["7"].meta[30] = 0
+t["7"].x[31] = 8; t["7"].y[31] = 6; t["7"].name[31] = "minecraft:stonebrick"; t["7"].meta[31] = 0
+t["7"].x[32] = 8; t["7"].y[32] = 7; t["7"].name[32] = "minecraft:nether_brick_stairs"; t["7"].meta[32] = 3
+t["7"].x[33] = 9; t["7"].y[33] = 4; t["7"].name[33] = "minecraft:spruce_stairs"; t["7"].meta[33] = 6
+t["7"].x[34] = 9; t["7"].y[34] = 5; t["7"].name[34] = "minecraft:wool"; t["7"].meta[34] = 0
+t["7"].x[35] = 9; t["7"].y[35] = 6; t["7"].name[35] = "minecraft:stonebrick"; t["7"].meta[35] = 0
+t["7"].x[36] = 9; t["7"].y[36] = 7; t["7"].name[36] = "minecraft:nether_brick_stairs"; t["7"].meta[36] = 3
+t["7"].x[37] = 10; t["7"].y[37] = 4; t["7"].name[37] = "minecraft:spruce_stairs"; t["7"].meta[37] = 6
+t["7"].x[38] = 10; t["7"].y[38] = 5; t["7"].name[38] = "minecraft:wool"; t["7"].meta[38] = 0
+t["7"].x[39] = 10; t["7"].y[39] = 6; t["7"].name[39] = "minecraft:stonebrick"; t["7"].meta[39] = 0
+t["7"].x[40] = 10; t["7"].y[40] = 7; t["7"].name[40] = "minecraft:nether_brick_stairs"; t["7"].meta[40] = 3
+t["7"].x[41] = 11; t["7"].y[41] = 4; t["7"].name[41] = "minecraft:spruce_stairs"; t["7"].meta[41] = 6
+t["7"].x[42] = 11; t["7"].y[42] = 5; t["7"].name[42] = "minecraft:wool"; t["7"].meta[42] = 0
+t["7"].x[43] = 11; t["7"].y[43] = 6; t["7"].name[43] = "minecraft:stonebrick"; t["7"].meta[43] = 0
+t["7"].x[44] = 11; t["7"].y[44] = 7; t["7"].name[44] = "minecraft:nether_brick_stairs"; t["7"].meta[44] = 3
+t["7"].x[45] = 12; t["7"].y[45] = 4; t["7"].name[45] = "minecraft:spruce_stairs"; t["7"].meta[45] = 6
+t["7"].x[46] = 12; t["7"].y[46] = 5; t["7"].name[46] = "minecraft:wool"; t["7"].meta[46] = 0
+t["7"].x[47] = 12; t["7"].y[47] = 6; t["7"].name[47] = "minecraft:stonebrick"; t["7"].meta[47] = 0
+t["7"].x[48] = 12; t["7"].y[48] = 7; t["7"].name[48] = "minecraft:nether_brick_stairs"; t["7"].meta[48] = 3
+t["7"].x[49] = 13; t["7"].y[49] = 4; t["7"].name[49] = "minecraft:spruce_stairs"; t["7"].meta[49] = 6
+t["7"].x[50] = 13; t["7"].y[50] = 5; t["7"].name[50] = "minecraft:wool"; t["7"].meta[50] = 0
+t["7"].x[51] = 13; t["7"].y[51] = 6; t["7"].name[51] = "minecraft:stonebrick"; t["7"].meta[51] = 0
+t["7"].x[52] = 13; t["7"].y[52] = 7; t["7"].name[52] = "minecraft:nether_brick_stairs"; t["7"].meta[52] = 3
+t["7"].x[53] = 14; t["7"].y[53] = 4; t["7"].name[53] = "minecraft:spruce_stairs"; t["7"].meta[53] = 6
+t["7"].x[54] = 14; t["7"].y[54] = 5; t["7"].name[54] = "minecraft:wool"; t["7"].meta[54] = 0
+t["7"].x[55] = 14; t["7"].y[55] = 6; t["7"].name[55] = "minecraft:stonebrick"; t["7"].meta[55] = 0
+t["7"].x[56] = 14; t["7"].y[56] = 7; t["7"].name[56] = "minecraft:nether_brick_stairs"; t["7"].meta[56] = 3
+t["7"].x[57] = 15; t["7"].y[57] = 4; t["7"].name[57] = "minecraft:spruce_stairs"; t["7"].meta[57] = 6
+t["7"].x[58] = 15; t["7"].y[58] = 5; t["7"].name[58] = "minecraft:wool"; t["7"].meta[58] = 0
+t["7"].x[59] = 15; t["7"].y[59] = 6; t["7"].name[59] = "minecraft:stonebrick"; t["7"].meta[59] = 0
+t["7"].x[60] = 15; t["7"].y[60] = 7; t["7"].name[60] = "minecraft:nether_brick_stairs"; t["7"].meta[60] = 3
+t["7"].x[61] = 16; t["7"].y[61] = 4; t["7"].name[61] = "minecraft:spruce_stairs"; t["7"].meta[61] = 6
+t["7"].x[62] = 16; t["7"].y[62] = 5; t["7"].name[62] = "minecraft:wool"; t["7"].meta[62] = 0
+t["7"].x[63] = 16; t["7"].y[63] = 6; t["7"].name[63] = "minecraft:stonebrick"; t["7"].meta[63] = 0
+t["7"].x[64] = 16; t["7"].y[64] = 7; t["7"].name[64] = "minecraft:nether_brick_stairs"; t["7"].meta[64] = 3
+t["8"].x[1] = 1; t["8"].y[1] = 0; t["8"].name[1] = "minecraft:planks"; t["8"].meta[1] = 1
+t["8"].x[2] = 1; t["8"].y[2] = 1; t["8"].name[2] = "minecraft:planks"; t["8"].meta[2] = 1
+t["8"].x[3] = 1; t["8"].y[3] = 2; t["8"].name[3] = "minecraft:planks"; t["8"].meta[3] = 1
+t["8"].x[4] = 1; t["8"].y[4] = 3; t["8"].name[4] = "minecraft:planks"; t["8"].meta[4] = 1
+t["8"].x[5] = 1; t["8"].y[5] = 4; t["8"].name[5] = "minecraft:planks"; t["8"].meta[5] = 1
+t["8"].x[6] = 1; t["8"].y[6] = 5; t["8"].name[6] = "minecraft:planks"; t["8"].meta[6] = 1
+t["8"].x[7] = 1; t["8"].y[7] = 6; t["8"].name[7] = "minecraft:nether_brick_stairs"; t["8"].meta[7] = 3
+t["8"].x[8] = 2; t["8"].y[8] = 0; t["8"].name[8] = "minecraft:planks"; t["8"].meta[8] = 1
+t["8"].x[9] = 2; t["8"].y[9] = 1; t["8"].name[9] = "minecraft:planks"; t["8"].meta[9] = 1
+t["8"].x[10] = 2; t["8"].y[10] = 2; t["8"].name[10] = "minecraft:planks"; t["8"].meta[10] = 1
+t["8"].x[11] = 2; t["8"].y[11] = 3; t["8"].name[11] = "minecraft:planks"; t["8"].meta[11] = 1
+t["8"].x[12] = 2; t["8"].y[12] = 4; t["8"].name[12] = "minecraft:planks"; t["8"].meta[12] = 1
+t["8"].x[13] = 2; t["8"].y[13] = 5; t["8"].name[13] = "minecraft:planks"; t["8"].meta[13] = 1
+t["8"].x[14] = 2; t["8"].y[14] = 6; t["8"].name[14] = "minecraft:nether_brick_stairs"; t["8"].meta[14] = 3
+t["8"].x[15] = 3; t["8"].y[15] = 0; t["8"].name[15] = "minecraft:planks"; t["8"].meta[15] = 1
+t["8"].x[16] = 3; t["8"].y[16] = 1; t["8"].name[16] = "minecraft:planks"; t["8"].meta[16] = 1
+t["8"].x[17] = 3; t["8"].y[17] = 2; t["8"].name[17] = "minecraft:planks"; t["8"].meta[17] = 1
+t["8"].x[18] = 3; t["8"].y[18] = 3; t["8"].name[18] = "minecraft:planks"; t["8"].meta[18] = 1
+t["8"].x[19] = 3; t["8"].y[19] = 4; t["8"].name[19] = "minecraft:planks"; t["8"].meta[19] = 1
+t["8"].x[20] = 3; t["8"].y[20] = 5; t["8"].name[20] = "minecraft:planks"; t["8"].meta[20] = 1
+t["8"].x[21] = 3; t["8"].y[21] = 6; t["8"].name[21] = "minecraft:log"; t["8"].meta[21] = 1
+t["8"].x[22] = 4; t["8"].y[22] = 0; t["8"].name[22] = "minecraft:planks"; t["8"].meta[22] = 1
+t["8"].x[23] = 4; t["8"].y[23] = 1; t["8"].name[23] = "minecraft:planks"; t["8"].meta[23] = 1
+t["8"].x[24] = 4; t["8"].y[24] = 2; t["8"].name[24] = "minecraft:planks"; t["8"].meta[24] = 1
+t["8"].x[25] = 4; t["8"].y[25] = 3; t["8"].name[25] = "minecraft:planks"; t["8"].meta[25] = 1
+t["8"].x[26] = 4; t["8"].y[26] = 4; t["8"].name[26] = "minecraft:planks"; t["8"].meta[26] = 1
+t["8"].x[27] = 4; t["8"].y[27] = 5; t["8"].name[27] = "minecraft:planks"; t["8"].meta[27] = 1
+t["8"].x[28] = 4; t["8"].y[28] = 6; t["8"].name[28] = "minecraft:log"; t["8"].meta[28] = 5
+t["8"].x[29] = 5; t["8"].y[29] = 0; t["8"].name[29] = "minecraft:planks"; t["8"].meta[29] = 1
+t["8"].x[30] = 5; t["8"].y[30] = 1; t["8"].name[30] = "minecraft:planks"; t["8"].meta[30] = 1
+t["8"].x[31] = 5; t["8"].y[31] = 2; t["8"].name[31] = "minecraft:planks"; t["8"].meta[31] = 1
+t["8"].x[32] = 5; t["8"].y[32] = 3; t["8"].name[32] = "minecraft:planks"; t["8"].meta[32] = 1
+t["8"].x[33] = 5; t["8"].y[33] = 4; t["8"].name[33] = "minecraft:planks"; t["8"].meta[33] = 1
+t["8"].x[34] = 5; t["8"].y[34] = 5; t["8"].name[34] = "minecraft:planks"; t["8"].meta[34] = 1
+t["8"].x[35] = 5; t["8"].y[35] = 6; t["8"].name[35] = "minecraft:log"; t["8"].meta[35] = 5
+t["8"].x[36] = 6; t["8"].y[36] = 0; t["8"].name[36] = "minecraft:planks"; t["8"].meta[36] = 1
+t["8"].x[37] = 6; t["8"].y[37] = 1; t["8"].name[37] = "minecraft:planks"; t["8"].meta[37] = 1
+t["8"].x[38] = 6; t["8"].y[38] = 2; t["8"].name[38] = "minecraft:planks"; t["8"].meta[38] = 1
+t["8"].x[39] = 6; t["8"].y[39] = 3; t["8"].name[39] = "minecraft:planks"; t["8"].meta[39] = 1
+t["8"].x[40] = 6; t["8"].y[40] = 4; t["8"].name[40] = "minecraft:planks"; t["8"].meta[40] = 1
+t["8"].x[41] = 6; t["8"].y[41] = 5; t["8"].name[41] = "minecraft:planks"; t["8"].meta[41] = 1
+t["8"].x[42] = 6; t["8"].y[42] = 6; t["8"].name[42] = "minecraft:log"; t["8"].meta[42] = 5
+t["8"].x[43] = 7; t["8"].y[43] = 0; t["8"].name[43] = "minecraft:planks"; t["8"].meta[43] = 1
+t["8"].x[44] = 7; t["8"].y[44] = 1; t["8"].name[44] = "minecraft:planks"; t["8"].meta[44] = 1
+t["8"].x[45] = 7; t["8"].y[45] = 2; t["8"].name[45] = "minecraft:planks"; t["8"].meta[45] = 1
+t["8"].x[46] = 7; t["8"].y[46] = 3; t["8"].name[46] = "minecraft:planks"; t["8"].meta[46] = 1
+t["8"].x[47] = 7; t["8"].y[47] = 4; t["8"].name[47] = "minecraft:planks"; t["8"].meta[47] = 1
+t["8"].x[48] = 7; t["8"].y[48] = 5; t["8"].name[48] = "minecraft:planks"; t["8"].meta[48] = 1
+t["8"].x[49] = 7; t["8"].y[49] = 6; t["8"].name[49] = "minecraft:log"; t["8"].meta[49] = 5
+t["8"].x[50] = 8; t["8"].y[50] = 0; t["8"].name[50] = "minecraft:planks"; t["8"].meta[50] = 1
+t["8"].x[51] = 8; t["8"].y[51] = 1; t["8"].name[51] = "minecraft:planks"; t["8"].meta[51] = 1
+t["8"].x[52] = 8; t["8"].y[52] = 2; t["8"].name[52] = "minecraft:planks"; t["8"].meta[52] = 1
+t["8"].x[53] = 8; t["8"].y[53] = 3; t["8"].name[53] = "minecraft:planks"; t["8"].meta[53] = 1
+t["8"].x[54] = 8; t["8"].y[54] = 4; t["8"].name[54] = "minecraft:planks"; t["8"].meta[54] = 1
+t["8"].x[55] = 8; t["8"].y[55] = 5; t["8"].name[55] = "minecraft:planks"; t["8"].meta[55] = 1
+t["8"].x[56] = 8; t["8"].y[56] = 6; t["8"].name[56] = "minecraft:log"; t["8"].meta[56] = 5
+t["8"].x[57] = 9; t["8"].y[57] = 0; t["8"].name[57] = "minecraft:planks"; t["8"].meta[57] = 1
+t["8"].x[58] = 9; t["8"].y[58] = 1; t["8"].name[58] = "minecraft:planks"; t["8"].meta[58] = 1
+t["8"].x[59] = 9; t["8"].y[59] = 2; t["8"].name[59] = "minecraft:planks"; t["8"].meta[59] = 1
+t["8"].x[60] = 9; t["8"].y[60] = 3; t["8"].name[60] = "minecraft:planks"; t["8"].meta[60] = 1
+t["8"].x[61] = 9; t["8"].y[61] = 4; t["8"].name[61] = "minecraft:planks"; t["8"].meta[61] = 1
+t["8"].x[62] = 9; t["8"].y[62] = 5; t["8"].name[62] = "minecraft:planks"; t["8"].meta[62] = 1
+t["8"].x[63] = 9; t["8"].y[63] = 6; t["8"].name[63] = "minecraft:log"; t["8"].meta[63] = 5
+t["8"].x[64] = 10; t["8"].y[64] = 0; t["8"].name[64] = "minecraft:planks"; t["8"].meta[64] = 1
+t["8"].x[65] = 10; t["8"].y[65] = 1; t["8"].name[65] = "minecraft:planks"; t["8"].meta[65] = 1
+t["8"].x[66] = 10; t["8"].y[66] = 2; t["8"].name[66] = "minecraft:planks"; t["8"].meta[66] = 1
+t["8"].x[67] = 10; t["8"].y[67] = 3; t["8"].name[67] = "minecraft:planks"; t["8"].meta[67] = 1
+t["8"].x[68] = 10; t["8"].y[68] = 4; t["8"].name[68] = "minecraft:planks"; t["8"].meta[68] = 1
+t["8"].x[69] = 10; t["8"].y[69] = 5; t["8"].name[69] = "minecraft:planks"; t["8"].meta[69] = 1
+t["8"].x[70] = 10; t["8"].y[70] = 6; t["8"].name[70] = "minecraft:log"; t["8"].meta[70] = 5
+t["8"].x[71] = 11; t["8"].y[71] = 0; t["8"].name[71] = "minecraft:planks"; t["8"].meta[71] = 1
+t["8"].x[72] = 11; t["8"].y[72] = 1; t["8"].name[72] = "minecraft:planks"; t["8"].meta[72] = 1
+t["8"].x[73] = 11; t["8"].y[73] = 2; t["8"].name[73] = "minecraft:planks"; t["8"].meta[73] = 1
+t["8"].x[74] = 11; t["8"].y[74] = 3; t["8"].name[74] = "minecraft:planks"; t["8"].meta[74] = 1
+t["8"].x[75] = 11; t["8"].y[75] = 4; t["8"].name[75] = "minecraft:planks"; t["8"].meta[75] = 1
+t["8"].x[76] = 11; t["8"].y[76] = 5; t["8"].name[76] = "minecraft:planks"; t["8"].meta[76] = 1
+t["8"].x[77] = 11; t["8"].y[77] = 6; t["8"].name[77] = "minecraft:log"; t["8"].meta[77] = 5
+t["8"].x[78] = 12; t["8"].y[78] = 0; t["8"].name[78] = "minecraft:planks"; t["8"].meta[78] = 1
+t["8"].x[79] = 12; t["8"].y[79] = 1; t["8"].name[79] = "minecraft:planks"; t["8"].meta[79] = 1
+t["8"].x[80] = 12; t["8"].y[80] = 2; t["8"].name[80] = "minecraft:planks"; t["8"].meta[80] = 1
+t["8"].x[81] = 12; t["8"].y[81] = 3; t["8"].name[81] = "minecraft:planks"; t["8"].meta[81] = 1
+t["8"].x[82] = 12; t["8"].y[82] = 4; t["8"].name[82] = "minecraft:planks"; t["8"].meta[82] = 1
+t["8"].x[83] = 12; t["8"].y[83] = 5; t["8"].name[83] = "minecraft:planks"; t["8"].meta[83] = 1
+t["8"].x[84] = 12; t["8"].y[84] = 6; t["8"].name[84] = "minecraft:log"; t["8"].meta[84] = 5
+t["8"].x[85] = 13; t["8"].y[85] = 0; t["8"].name[85] = "minecraft:planks"; t["8"].meta[85] = 1
+t["8"].x[86] = 13; t["8"].y[86] = 1; t["8"].name[86] = "minecraft:planks"; t["8"].meta[86] = 1
+t["8"].x[87] = 13; t["8"].y[87] = 2; t["8"].name[87] = "minecraft:planks"; t["8"].meta[87] = 1
+t["8"].x[88] = 13; t["8"].y[88] = 3; t["8"].name[88] = "minecraft:planks"; t["8"].meta[88] = 1
+t["8"].x[89] = 13; t["8"].y[89] = 4; t["8"].name[89] = "minecraft:planks"; t["8"].meta[89] = 1
+t["8"].x[90] = 13; t["8"].y[90] = 5; t["8"].name[90] = "minecraft:planks"; t["8"].meta[90] = 1
+t["8"].x[91] = 13; t["8"].y[91] = 6; t["8"].name[91] = "minecraft:log"; t["8"].meta[91] = 1
+t["8"].x[92] = 14; t["8"].y[92] = 0; t["8"].name[92] = "minecraft:planks"; t["8"].meta[92] = 1
+t["8"].x[93] = 14; t["8"].y[93] = 1; t["8"].name[93] = "minecraft:planks"; t["8"].meta[93] = 1
+t["8"].x[94] = 14; t["8"].y[94] = 2; t["8"].name[94] = "minecraft:planks"; t["8"].meta[94] = 1
+t["8"].x[95] = 14; t["8"].y[95] = 3; t["8"].name[95] = "minecraft:planks"; t["8"].meta[95] = 1
+t["8"].x[96] = 14; t["8"].y[96] = 4; t["8"].name[96] = "minecraft:planks"; t["8"].meta[96] = 1
+t["8"].x[97] = 14; t["8"].y[97] = 5; t["8"].name[97] = "minecraft:planks"; t["8"].meta[97] = 1
+t["8"].x[98] = 14; t["8"].y[98] = 6; t["8"].name[98] = "minecraft:nether_brick_stairs"; t["8"].meta[98] = 3
+t["8"].x[99] = 15; t["8"].y[99] = 0; t["8"].name[99] = "minecraft:planks"; t["8"].meta[99] = 1
+t["8"].x[100] = 15; t["8"].y[100] = 1; t["8"].name[100] = "minecraft:planks"; t["8"].meta[100] = 1
+t["8"].x[101] = 15; t["8"].y[101] = 2; t["8"].name[101] = "minecraft:planks"; t["8"].meta[101] = 1
+t["8"].x[102] = 15; t["8"].y[102] = 3; t["8"].name[102] = "minecraft:planks"; t["8"].meta[102] = 1
+t["8"].x[103] = 15; t["8"].y[103] = 4; t["8"].name[103] = "minecraft:planks"; t["8"].meta[103] = 1
+t["8"].x[104] = 15; t["8"].y[104] = 5; t["8"].name[104] = "minecraft:planks"; t["8"].meta[104] = 1
+t["8"].x[105] = 15; t["8"].y[105] = 6; t["8"].name[105] = "minecraft:nether_brick_stairs"; t["8"].meta[105] = 3
+t["8"].x[106] = 16; t["8"].y[106] = 0; t["8"].name[106] = "minecraft:planks"; t["8"].meta[106] = 1
+t["8"].x[107] = 16; t["8"].y[107] = 1; t["8"].name[107] = "minecraft:planks"; t["8"].meta[107] = 1
+t["8"].x[108] = 16; t["8"].y[108] = 2; t["8"].name[108] = "minecraft:planks"; t["8"].meta[108] = 1
+t["8"].x[109] = 16; t["8"].y[109] = 3; t["8"].name[109] = "minecraft:planks"; t["8"].meta[109] = 1
+t["8"].x[110] = 16; t["8"].y[110] = 4; t["8"].name[110] = "minecraft:planks"; t["8"].meta[110] = 1
+t["8"].x[111] = 16; t["8"].y[111] = 5; t["8"].name[111] = "minecraft:planks"; t["8"].meta[111] = 1
+t["8"].x[112] = 16; t["8"].y[112] = 6; t["8"].name[112] = "minecraft:nether_brick_stairs"; t["8"].meta[112] = 3
+t["9"].x[1] = 1; t["9"].y[1] = 3; t["9"].name[1] = "minecraft:planks"; t["9"].meta[1] = 1
+t["9"].x[2] = 1; t["9"].y[2] = 4; t["9"].name[2] = "minecraft:planks"; t["9"].meta[2] = 1
+t["9"].x[3] = 1; t["9"].y[3] = 5; t["9"].name[3] = "minecraft:nether_brick_stairs"; t["9"].meta[3] = 3
+t["9"].x[4] = 2; t["9"].y[4] = 3; t["9"].name[4] = "minecraft:planks"; t["9"].meta[4] = 1
+t["9"].x[5] = 2; t["9"].y[5] = 4; t["9"].name[5] = "minecraft:planks"; t["9"].meta[5] = 1
+t["9"].x[6] = 2; t["9"].y[6] = 5; t["9"].name[6] = "minecraft:nether_brick_stairs"; t["9"].meta[6] = 3
+t["9"].x[7] = 3; t["9"].y[7] = 3; t["9"].name[7] = "minecraft:log"; t["9"].meta[7] = 1
+t["9"].x[8] = 3; t["9"].y[8] = 5; t["9"].name[8] = "minecraft:nether_brick"; t["9"].meta[8] = 0
+t["9"].x[9] = 3; t["9"].y[9] = 6; t["9"].name[9] = "minecraft:log"; t["9"].meta[9] = 1
+t["9"].x[10] = 4; t["9"].y[10] = 4; t["9"].name[10] = "minecraft:wool"; t["9"].meta[10] = 0
+t["9"].x[11] = 4; t["9"].y[11] = 5; t["9"].name[11] = "minecraft:wool"; t["9"].meta[11] = 0
+t["9"].x[12] = 4; t["9"].y[12] = 6; t["9"].name[12] = "minecraft:spruce_stairs"; t["9"].meta[12] = 3
+t["9"].x[13] = 5; t["9"].y[13] = 5; t["9"].name[13] = "minecraft:wool"; t["9"].meta[13] = 0
+t["9"].x[14] = 5; t["9"].y[14] = 6; t["9"].name[14] = "minecraft:spruce_stairs"; t["9"].meta[14] = 3
+t["9"].x[15] = 6; t["9"].y[15] = 5; t["9"].name[15] = "minecraft:planks"; t["9"].meta[15] = 1
+t["9"].x[16] = 6; t["9"].y[16] = 6; t["9"].name[16] = "minecraft:log"; t["9"].meta[16] = 1
+t["9"].x[17] = 7; t["9"].y[17] = 5; t["9"].name[17] = "minecraft:planks"; t["9"].meta[17] = 1
+t["9"].x[18] = 7; t["9"].y[18] = 6; t["9"].name[18] = "minecraft:spruce_stairs"; t["9"].meta[18] = 3
+t["9"].x[19] = 8; t["9"].y[19] = 5; t["9"].name[19] = "minecraft:planks"; t["9"].meta[19] = 1
+t["9"].x[20] = 8; t["9"].y[20] = 6; t["9"].name[20] = "minecraft:spruce_stairs"; t["9"].meta[20] = 3
+t["9"].x[21] = 9; t["9"].y[21] = 5; t["9"].name[21] = "minecraft:planks"; t["9"].meta[21] = 1
+t["9"].x[22] = 9; t["9"].y[22] = 6; t["9"].name[22] = "minecraft:spruce_stairs"; t["9"].meta[22] = 3
+t["9"].x[23] = 10; t["9"].y[23] = 5; t["9"].name[23] = "minecraft:planks"; t["9"].meta[23] = 1
+t["9"].x[24] = 10; t["9"].y[24] = 6; t["9"].name[24] = "minecraft:log"; t["9"].meta[24] = 1
+t["9"].x[25] = 11; t["9"].y[25] = 5; t["9"].name[25] = "minecraft:wool"; t["9"].meta[25] = 0
+t["9"].x[26] = 11; t["9"].y[26] = 6; t["9"].name[26] = "minecraft:spruce_stairs"; t["9"].meta[26] = 3
+t["9"].x[27] = 12; t["9"].y[27] = 4; t["9"].name[27] = "minecraft:wool"; t["9"].meta[27] = 0
+t["9"].x[28] = 12; t["9"].y[28] = 5; t["9"].name[28] = "minecraft:wool"; t["9"].meta[28] = 0
+t["9"].x[29] = 12; t["9"].y[29] = 6; t["9"].name[29] = "minecraft:spruce_stairs"; t["9"].meta[29] = 3
+t["9"].x[30] = 13; t["9"].y[30] = 3; t["9"].name[30] = "minecraft:log"; t["9"].meta[30] = 1
+t["9"].x[31] = 13; t["9"].y[31] = 5; t["9"].name[31] = "minecraft:nether_brick"; t["9"].meta[31] = 0
+t["9"].x[32] = 13; t["9"].y[32] = 6; t["9"].name[32] = "minecraft:log"; t["9"].meta[32] = 1
+t["9"].x[33] = 14; t["9"].y[33] = 3; t["9"].name[33] = "minecraft:planks"; t["9"].meta[33] = 1
+t["9"].x[34] = 14; t["9"].y[34] = 5; t["9"].name[34] = "minecraft:nether_brick_stairs"; t["9"].meta[34] = 3
+t["9"].x[35] = 15; t["9"].y[35] = 3; t["9"].name[35] = "minecraft:planks"; t["9"].meta[35] = 1
+t["9"].x[36] = 15; t["9"].y[36] = 5; t["9"].name[36] = "minecraft:nether_brick_stairs"; t["9"].meta[36] = 3
+t["9"].x[37] = 16; t["9"].y[37] = 3; t["9"].name[37] = "minecraft:planks"; t["9"].meta[37] = 1
+t["9"].x[38] = 16; t["9"].y[38] = 5; t["9"].name[38] = "minecraft:nether_brick_stairs"; t["9"].meta[38] = 3
+t["10"].x[1] = 1; t["10"].y[1] = 3; t["10"].name[1] = "minecraft:planks"; t["10"].meta[1] = 1
+t["10"].x[2] = 1; t["10"].y[2] = 4; t["10"].name[2] = "minecraft:nether_brick_stairs"; t["10"].meta[2] = 3
+t["10"].x[3] = 2; t["10"].y[3] = 3; t["10"].name[3] = "minecraft:planks"; t["10"].meta[3] = 1
+t["10"].x[4] = 2; t["10"].y[4] = 4; t["10"].name[4] = "minecraft:nether_brick_stairs"; t["10"].meta[4] = 3
+t["10"].x[5] = 3; t["10"].y[5] = 3; t["10"].name[5] = "minecraft:log"; t["10"].meta[5] = 1
+t["10"].x[6] = 3; t["10"].y[6] = 4; t["10"].name[6] = "minecraft:nether_brick"; t["10"].meta[6] = 0
+t["10"].x[7] = 3; t["10"].y[7] = 5; t["10"].name[7] = "minecraft:nether_brick_fence"; t["10"].meta[7] = 0
+t["10"].x[8] = 3; t["10"].y[8] = 6; t["10"].name[8] = "minecraft:log"; t["10"].meta[8] = 1
+t["10"].x[9] = 4; t["10"].y[9] = 4; t["10"].name[9] = "minecraft:wool"; t["10"].meta[9] = 0
+t["10"].x[10] = 4; t["10"].y[10] = 5; t["10"].name[10] = "minecraft:wool"; t["10"].meta[10] = 0
+t["10"].x[11] = 5; t["10"].y[11] = 5; t["10"].name[11] = "minecraft:wool"; t["10"].meta[11] = 0
+t["10"].x[12] = 6; t["10"].y[12] = 5; t["10"].name[12] = "minecraft:flower_pot"; t["10"].meta[12] = 1
+t["10"].x[13] = 6; t["10"].y[13] = 6; t["10"].name[13] = "minecraft:log"; t["10"].meta[13] = 1
+t["10"].x[14] = 7; t["10"].y[14] = 5; t["10"].name[14] = "minecraft:flower_pot"; t["10"].meta[14] = 1
+t["10"].x[15] = 7; t["10"].y[15] = 6; t["10"].name[15] = "minecraft:glass_pane"; t["10"].meta[15] = 0
+t["10"].x[16] = 8; t["10"].y[16] = 5; t["10"].name[16] = "minecraft:flower_pot"; t["10"].meta[16] = 2
+t["10"].x[17] = 8; t["10"].y[17] = 6; t["10"].name[17] = "minecraft:glass_pane"; t["10"].meta[17] = 0
+t["10"].x[18] = 9; t["10"].y[18] = 5; t["10"].name[18] = "minecraft:flower_pot"; t["10"].meta[18] = 1
+t["10"].x[19] = 9; t["10"].y[19] = 6; t["10"].name[19] = "minecraft:glass_pane"; t["10"].meta[19] = 0
+t["10"].x[20] = 10; t["10"].y[20] = 5; t["10"].name[20] = "minecraft:flower_pot"; t["10"].meta[20] = 2
+t["10"].x[21] = 10; t["10"].y[21] = 6; t["10"].name[21] = "minecraft:log"; t["10"].meta[21] = 1
+t["10"].x[22] = 11; t["10"].y[22] = 5; t["10"].name[22] = "minecraft:wool"; t["10"].meta[22] = 0
+t["10"].x[23] = 12; t["10"].y[23] = 4; t["10"].name[23] = "minecraft:wool"; t["10"].meta[23] = 0
+t["10"].x[24] = 12; t["10"].y[24] = 5; t["10"].name[24] = "minecraft:wool"; t["10"].meta[24] = 0
+t["10"].x[25] = 13; t["10"].y[25] = 3; t["10"].name[25] = "minecraft:log"; t["10"].meta[25] = 1
+t["10"].x[26] = 13; t["10"].y[26] = 4; t["10"].name[26] = "minecraft:nether_brick_stairs"; t["10"].meta[26] = 3
+t["10"].x[27] = 13; t["10"].y[27] = 5; t["10"].name[27] = "minecraft:nether_brick_fence"; t["10"].meta[27] = 0
+t["10"].x[28] = 13; t["10"].y[28] = 6; t["10"].name[28] = "minecraft:log"; t["10"].meta[28] = 1
+t["10"].x[29] = 14; t["10"].y[29] = 3; t["10"].name[29] = "minecraft:planks"; t["10"].meta[29] = 1
+t["10"].x[30] = 14; t["10"].y[30] = 4; t["10"].name[30] = "minecraft:nether_brick_stairs"; t["10"].meta[30] = 3
+t["10"].x[31] = 15; t["10"].y[31] = 3; t["10"].name[31] = "minecraft:planks"; t["10"].meta[31] = 1
+t["10"].x[32] = 15; t["10"].y[32] = 4; t["10"].name[32] = "minecraft:nether_brick_stairs"; t["10"].meta[32] = 3
+t["10"].x[33] = 16; t["10"].y[33] = 3; t["10"].name[33] = "minecraft:planks"; t["10"].meta[33] = 1
+t["10"].x[34] = 16; t["10"].y[34] = 4; t["10"].name[34] = "minecraft:nether_brick_stairs"; t["10"].meta[34] = 3
+t["11"].x[1] = 1; t["11"].y[1] = 3; t["11"].name[1] = "minecraft:nether_brick"; t["11"].meta[1] = 0
+t["11"].x[2] = 2; t["11"].y[2] = 3; t["11"].name[2] = "minecraft:nether_brick"; t["11"].meta[2] = 0
+t["11"].x[3] = 3; t["11"].y[3] = 3; t["11"].name[3] = "minecraft:log"; t["11"].meta[3] = 1
+t["11"].x[4] = 3; t["11"].y[4] = 4; t["11"].name[4] = "minecraft:spruce_stairs"; t["11"].meta[4] = 4
+t["11"].x[5] = 3; t["11"].y[5] = 5; t["11"].name[5] = "minecraft:spruce_stairs"; t["11"].meta[5] = 4
+t["11"].x[6] = 3; t["11"].y[6] = 6; t["11"].name[6] = "minecraft:log"; t["11"].meta[6] = 1
+t["11"].x[7] = 4; t["11"].y[7] = 4; t["11"].name[7] = "minecraft:wool"; t["11"].meta[7] = 0
+t["11"].x[8] = 4; t["11"].y[8] = 5; t["11"].name[8] = "minecraft:wool"; t["11"].meta[8] = 0
+t["11"].x[9] = 4; t["11"].y[9] = 6; t["11"].name[9] = "minecraft:nether_brick_fence"; t["11"].meta[9] = 0
+t["11"].x[10] = 5; t["11"].y[10] = 5; t["11"].name[10] = "minecraft:wool"; t["11"].meta[10] = 0
+t["11"].x[11] = 5; t["11"].y[11] = 6; t["11"].name[11] = "minecraft:nether_brick_fence"; t["11"].meta[11] = 0
+t["11"].x[12] = 6; t["11"].y[12] = 6; t["11"].name[12] = "minecraft:log"; t["11"].meta[12] = 1
+t["11"].x[13] = 7; t["11"].y[13] = 6; t["11"].name[13] = "minecraft:glass_pane"; t["11"].meta[13] = 0
+t["11"].x[14] = 8; t["11"].y[14] = 6; t["11"].name[14] = "minecraft:glass_pane"; t["11"].meta[14] = 0
+t["11"].x[15] = 9; t["11"].y[15] = 6; t["11"].name[15] = "minecraft:glass_pane"; t["11"].meta[15] = 0
+t["11"].x[16] = 10; t["11"].y[16] = 6; t["11"].name[16] = "minecraft:log"; t["11"].meta[16] = 1
+t["11"].x[17] = 11; t["11"].y[17] = 5; t["11"].name[17] = "minecraft:wool"; t["11"].meta[17] = 0
+t["11"].x[18] = 11; t["11"].y[18] = 6; t["11"].name[18] = "minecraft:nether_brick_fence"; t["11"].meta[18] = 0
+t["11"].x[19] = 12; t["11"].y[19] = 4; t["11"].name[19] = "minecraft:wool"; t["11"].meta[19] = 0
+t["11"].x[20] = 12; t["11"].y[20] = 5; t["11"].name[20] = "minecraft:wool"; t["11"].meta[20] = 0
+t["11"].x[21] = 12; t["11"].y[21] = 6; t["11"].name[21] = "minecraft:nether_brick_fence"; t["11"].meta[21] = 0
+t["11"].x[22] = 13; t["11"].y[22] = 3; t["11"].name[22] = "minecraft:log"; t["11"].meta[22] = 1
+t["11"].x[23] = 13; t["11"].y[23] = 4; t["11"].name[23] = "minecraft:spruce_stairs"; t["11"].meta[23] = 5
+t["11"].x[24] = 13; t["11"].y[24] = 5; t["11"].name[24] = "minecraft:spruce_stairs"; t["11"].meta[24] = 5
+t["11"].x[25] = 13; t["11"].y[25] = 6; t["11"].name[25] = "minecraft:log"; t["11"].meta[25] = 1
+t["11"].x[26] = 14; t["11"].y[26] = 3; t["11"].name[26] = "minecraft:nether_brick"; t["11"].meta[26] = 0
+t["11"].x[27] = 15; t["11"].y[27] = 3; t["11"].name[27] = "minecraft:nether_brick"; t["11"].meta[27] = 0
+t["11"].x[28] = 16; t["11"].y[28] = 3; t["11"].name[28] = "minecraft:nether_brick"; t["11"].meta[28] = 0
+t["12"].x[1] = 1; t["12"].y[1] = 2; t["12"].name[1] = "minecraft:spruce_stairs"; t["12"].meta[1] = 6
+t["12"].x[2] = 1; t["12"].y[2] = 3; t["12"].name[2] = "minecraft:nether_brick_stairs"; t["12"].meta[2] = 3
+t["12"].x[3] = 2; t["12"].y[3] = 2; t["12"].name[3] = "minecraft:spruce_stairs"; t["12"].meta[3] = 6
+t["12"].x[4] = 2; t["12"].y[4] = 3; t["12"].name[4] = "minecraft:nether_brick_stairs"; t["12"].meta[4] = 0
+t["12"].x[5] = 2; t["12"].y[5] = 4; t["12"].name[5] = "minecraft:nether_brick_stairs"; t["12"].meta[5] = 0
+t["12"].x[6] = 2; t["12"].y[6] = 5; t["12"].name[6] = "minecraft:nether_brick_stairs"; t["12"].meta[6] = 0
+t["12"].x[7] = 2; t["12"].y[7] = 6; t["12"].name[7] = "minecraft:nether_brick_stairs"; t["12"].meta[7] = 0
+t["12"].x[8] = 2; t["12"].y[8] = 7; t["12"].name[8] = "minecraft:birch_stairs"; t["12"].meta[8] = 0
+t["12"].x[9] = 3; t["12"].y[9] = 2; t["12"].name[9] = "minecraft:spruce_stairs"; t["12"].meta[9] = 6
+t["12"].x[10] = 3; t["12"].y[10] = 3; t["12"].name[10] = "minecraft:log"; t["12"].meta[10] = 1
+t["12"].x[11] = 3; t["12"].y[11] = 6; t["12"].name[11] = "minecraft:log"; t["12"].meta[11] = 1
+t["12"].x[12] = 4; t["12"].y[12] = 2; t["12"].name[12] = "minecraft:spruce_stairs"; t["12"].meta[12] = 5
+t["12"].x[13] = 4; t["12"].y[13] = 3; t["12"].name[13] = "minecraft:spruce_stairs"; t["12"].meta[13] = 6
+t["12"].x[14] = 4; t["12"].y[14] = 4; t["12"].name[14] = "minecraft:wool"; t["12"].meta[14] = 0
+t["12"].x[15] = 4; t["12"].y[15] = 5; t["12"].name[15] = "minecraft:wool"; t["12"].meta[15] = 0
+t["12"].x[16] = 4; t["12"].y[16] = 6; t["12"].name[16] = "minecraft:spruce_stairs"; t["12"].meta[16] = 7
+t["12"].x[17] = 5; t["12"].y[17] = 3; t["12"].name[17] = "minecraft:spruce_stairs"; t["12"].meta[17] = 5
+t["12"].x[18] = 5; t["12"].y[18] = 4; t["12"].name[18] = "minecraft:spruce_stairs"; t["12"].meta[18] = 6
+t["12"].x[19] = 5; t["12"].y[19] = 5; t["12"].name[19] = "minecraft:wool"; t["12"].meta[19] = 0
+t["12"].x[20] = 5; t["12"].y[20] = 6; t["12"].name[20] = "minecraft:spruce_stairs"; t["12"].meta[20] = 7
+t["12"].x[21] = 6; t["12"].y[21] = 4; t["12"].name[21] = "minecraft:spruce_stairs"; t["12"].meta[21] = 5
+t["12"].x[22] = 6; t["12"].y[22] = 5; t["12"].name[22] = "minecraft:spruce_stairs"; t["12"].meta[22] = 6
+t["12"].x[23] = 6; t["12"].y[23] = 6; t["12"].name[23] = "minecraft:log"; t["12"].meta[23] = 1
+t["12"].x[24] = 7; t["12"].y[24] = 5; t["12"].name[24] = "minecraft:spruce_stairs"; t["12"].meta[24] = 6
+t["12"].x[25] = 7; t["12"].y[25] = 6; t["12"].name[25] = "minecraft:spruce_stairs"; t["12"].meta[25] = 5
+t["12"].x[26] = 7; t["12"].y[26] = 7; t["12"].name[26] = "minecraft:spruce_stairs"; t["12"].meta[26] = 7
+t["12"].x[27] = 8; t["12"].y[27] = 5; t["12"].name[27] = "minecraft:spruce_stairs"; t["12"].meta[27] = 6
+t["12"].x[28] = 8; t["12"].y[28] = 6; t["12"].name[28] = "minecraft:spruce_stairs"; t["12"].meta[28] = 7
+t["12"].x[29] = 9; t["12"].y[29] = 5; t["12"].name[29] = "minecraft:spruce_stairs"; t["12"].meta[29] = 6
+t["12"].x[30] = 9; t["12"].y[30] = 6; t["12"].name[30] = "minecraft:spruce_stairs"; t["12"].meta[30] = 4
+t["12"].x[31] = 9; t["12"].y[31] = 7; t["12"].name[31] = "minecraft:spruce_stairs"; t["12"].meta[31] = 7
+t["12"].x[32] = 10; t["12"].y[32] = 4; t["12"].name[32] = "minecraft:spruce_stairs"; t["12"].meta[32] = 6
+t["12"].x[33] = 10; t["12"].y[33] = 5; t["12"].name[33] = "minecraft:spruce_stairs"; t["12"].meta[33] = 4
+t["12"].x[34] = 10; t["12"].y[34] = 6; t["12"].name[34] = "minecraft:log"; t["12"].meta[34] = 1
+t["12"].x[35] = 11; t["12"].y[35] = 3; t["12"].name[35] = "minecraft:spruce_stairs"; t["12"].meta[35] = 6
+t["12"].x[36] = 11; t["12"].y[36] = 4; t["12"].name[36] = "minecraft:spruce_stairs"; t["12"].meta[36] = 4
+t["12"].x[37] = 11; t["12"].y[37] = 5; t["12"].name[37] = "minecraft:wool"; t["12"].meta[37] = 0
+t["12"].x[38] = 11; t["12"].y[38] = 6; t["12"].name[38] = "minecraft:spruce_stairs"; t["12"].meta[38] = 7
+t["12"].x[39] = 12; t["12"].y[39] = 2; t["12"].name[39] = "minecraft:spruce_stairs"; t["12"].meta[39] = 6
+t["12"].x[40] = 12; t["12"].y[40] = 3; t["12"].name[40] = "minecraft:spruce_stairs"; t["12"].meta[40] = 4
+t["12"].x[41] = 12; t["12"].y[41] = 4; t["12"].name[41] = "minecraft:wool"; t["12"].meta[41] = 0
+t["12"].x[42] = 12; t["12"].y[42] = 5; t["12"].name[42] = "minecraft:wool"; t["12"].meta[42] = 0
+t["12"].x[43] = 12; t["12"].y[43] = 6; t["12"].name[43] = "minecraft:spruce_stairs"; t["12"].meta[43] = 7
+t["12"].x[44] = 13; t["12"].y[44] = 2; t["12"].name[44] = "minecraft:spruce_stairs"; t["12"].meta[44] = 6
+t["12"].x[45] = 13; t["12"].y[45] = 3; t["12"].name[45] = "minecraft:log"; t["12"].meta[45] = 1
+t["12"].x[46] = 13; t["12"].y[46] = 6; t["12"].name[46] = "minecraft:log"; t["12"].meta[46] = 1
+t["12"].x[47] = 14; t["12"].y[47] = 2; t["12"].name[47] = "minecraft:spruce_stairs"; t["12"].meta[47] = 6
+t["12"].x[48] = 14; t["12"].y[48] = 3; t["12"].name[48] = "minecraft:nether_brick_stairs"; t["12"].meta[48] = 1
+t["12"].x[49] = 14; t["12"].y[49] = 4; t["12"].name[49] = "minecraft:nether_brick_stairs"; t["12"].meta[49] = 1
+t["12"].x[50] = 14; t["12"].y[50] = 5; t["12"].name[50] = "minecraft:nether_brick_stairs"; t["12"].meta[50] = 1
+t["12"].x[51] = 14; t["12"].y[51] = 6; t["12"].name[51] = "minecraft:nether_brick_stairs"; t["12"].meta[51] = 1
+t["12"].x[52] = 14; t["12"].y[52] = 7; t["12"].name[52] = "minecraft:birch_stairs"; t["12"].meta[52] = 1
+t["12"].x[53] = 15; t["12"].y[53] = 2; t["12"].name[53] = "minecraft:spruce_stairs"; t["12"].meta[53] = 6
+t["12"].x[54] = 15; t["12"].y[54] = 3; t["12"].name[54] = "minecraft:nether_brick_stairs"; t["12"].meta[54] = 3
+t["12"].x[55] = 16; t["12"].y[55] = 2; t["12"].name[55] = "minecraft:spruce_stairs"; t["12"].meta[55] = 6
+t["12"].x[56] = 16; t["12"].y[56] = 3; t["12"].name[56] = "minecraft:nether_brick_stairs"; t["12"].meta[56] = 3
+t["13"].x[1] = 1; t["13"].y[1] = 2; t["13"].name[1] = "minecraft:nether_brick"; t["13"].meta[1] = 0
+t["13"].x[2] = 2; t["13"].y[2] = 2; t["13"].name[2] = "minecraft:nether_brick"; t["13"].meta[2] = 0
+t["13"].x[3] = 3; t["13"].y[3] = 2; t["13"].name[3] = "minecraft:nether_brick"; t["13"].meta[3] = 0
+t["13"].x[4] = 3; t["13"].y[4] = 3; t["13"].name[4] = "minecraft:nether_brick_stairs"; t["13"].meta[4] = 0
+t["13"].x[5] = 3; t["13"].y[5] = 4; t["13"].name[5] = "minecraft:nether_brick_stairs"; t["13"].meta[5] = 0
+t["13"].x[6] = 3; t["13"].y[6] = 5; t["13"].name[6] = "minecraft:nether_brick_stairs"; t["13"].meta[6] = 0
+t["13"].x[7] = 3; t["13"].y[7] = 6; t["13"].name[7] = "minecraft:nether_brick_stairs"; t["13"].meta[7] = 0
+t["13"].x[8] = 3; t["13"].y[8] = 7; t["13"].name[8] = "minecraft:birch_stairs"; t["13"].meta[8] = 0
+t["13"].x[9] = 4; t["13"].y[9] = 2; t["13"].name[9] = "minecraft:planks"; t["13"].meta[9] = 1
+t["13"].x[10] = 4; t["13"].y[10] = 3; t["13"].name[10] = "minecraft:planks"; t["13"].meta[10] = 1
+t["13"].x[11] = 4; t["13"].y[11] = 4; t["13"].name[11] = "minecraft:planks"; t["13"].meta[11] = 1
+t["13"].x[12] = 4; t["13"].y[12] = 5; t["13"].name[12] = "minecraft:planks"; t["13"].meta[12] = 1
+t["13"].x[13] = 4; t["13"].y[13] = 6; t["13"].name[13] = "minecraft:log"; t["13"].meta[13] = 5
+t["13"].x[14] = 5; t["13"].y[14] = 3; t["13"].name[14] = "minecraft:planks"; t["13"].meta[14] = 1
+t["13"].x[15] = 5; t["13"].y[15] = 4; t["13"].name[15] = "minecraft:planks"; t["13"].meta[15] = 1
+t["13"].x[16] = 5; t["13"].y[16] = 5; t["13"].name[16] = "minecraft:planks"; t["13"].meta[16] = 1
+t["13"].x[17] = 5; t["13"].y[17] = 6; t["13"].name[17] = "minecraft:log"; t["13"].meta[17] = 5
+t["13"].x[18] = 6; t["13"].y[18] = 4; t["13"].name[18] = "minecraft:planks"; t["13"].meta[18] = 1
+t["13"].x[19] = 6; t["13"].y[19] = 5; t["13"].name[19] = "minecraft:planks"; t["13"].meta[19] = 1
+t["13"].x[20] = 6; t["13"].y[20] = 6; t["13"].name[20] = "minecraft:log"; t["13"].meta[20] = 5
+t["13"].x[21] = 7; t["13"].y[21] = 5; t["13"].name[21] = "minecraft:planks"; t["13"].meta[21] = 1
+t["13"].x[22] = 7; t["13"].y[22] = 6; t["13"].name[22] = "minecraft:log"; t["13"].meta[22] = 5
+t["13"].x[23] = 8; t["13"].y[23] = 5; t["13"].name[23] = "minecraft:planks"; t["13"].meta[23] = 1
+t["13"].x[24] = 8; t["13"].y[24] = 6; t["13"].name[24] = "minecraft:log"; t["13"].meta[24] = 5
+t["13"].x[25] = 8; t["13"].y[25] = 7; t["13"].name[25] = "minecraft:wooden_slab"; t["13"].meta[25] = 1
+t["13"].x[26] = 9; t["13"].y[26] = 5; t["13"].name[26] = "minecraft:planks"; t["13"].meta[26] = 1
+t["13"].x[27] = 9; t["13"].y[27] = 6; t["13"].name[27] = "minecraft:log"; t["13"].meta[27] = 5
+t["13"].x[28] = 10; t["13"].y[28] = 4; t["13"].name[28] = "minecraft:planks"; t["13"].meta[28] = 1
+t["13"].x[29] = 10; t["13"].y[29] = 5; t["13"].name[29] = "minecraft:planks"; t["13"].meta[29] = 1
+t["13"].x[30] = 10; t["13"].y[30] = 6; t["13"].name[30] = "minecraft:log"; t["13"].meta[30] = 5
+t["13"].x[31] = 11; t["13"].y[31] = 3; t["13"].name[31] = "minecraft:planks"; t["13"].meta[31] = 1
+t["13"].x[32] = 11; t["13"].y[32] = 4; t["13"].name[32] = "minecraft:planks"; t["13"].meta[32] = 1
+t["13"].x[33] = 11; t["13"].y[33] = 5; t["13"].name[33] = "minecraft:planks"; t["13"].meta[33] = 1
+t["13"].x[34] = 11; t["13"].y[34] = 6; t["13"].name[34] = "minecraft:log"; t["13"].meta[34] = 5
+t["13"].x[35] = 12; t["13"].y[35] = 2; t["13"].name[35] = "minecraft:planks"; t["13"].meta[35] = 1
+t["13"].x[36] = 12; t["13"].y[36] = 3; t["13"].name[36] = "minecraft:planks"; t["13"].meta[36] = 1
+t["13"].x[37] = 12; t["13"].y[37] = 4; t["13"].name[37] = "minecraft:planks"; t["13"].meta[37] = 1
+t["13"].x[38] = 12; t["13"].y[38] = 5; t["13"].name[38] = "minecraft:planks"; t["13"].meta[38] = 1
+t["13"].x[39] = 12; t["13"].y[39] = 6; t["13"].name[39] = "minecraft:log"; t["13"].meta[39] = 5
+t["13"].x[40] = 13; t["13"].y[40] = 2; t["13"].name[40] = "minecraft:nether_brick"; t["13"].meta[40] = 0
+t["13"].x[41] = 13; t["13"].y[41] = 3; t["13"].name[41] = "minecraft:nether_brick_stairs"; t["13"].meta[41] = 1
+t["13"].x[42] = 13; t["13"].y[42] = 4; t["13"].name[42] = "minecraft:nether_brick_stairs"; t["13"].meta[42] = 1
+t["13"].x[43] = 13; t["13"].y[43] = 5; t["13"].name[43] = "minecraft:nether_brick_stairs"; t["13"].meta[43] = 1
+t["13"].x[44] = 13; t["13"].y[44] = 6; t["13"].name[44] = "minecraft:nether_brick_stairs"; t["13"].meta[44] = 1
+t["13"].x[45] = 13; t["13"].y[45] = 7; t["13"].name[45] = "minecraft:birch_stairs"; t["13"].meta[45] = 1
+t["13"].x[46] = 14; t["13"].y[46] = 2; t["13"].name[46] = "minecraft:nether_brick"; t["13"].meta[46] = 0
+t["13"].x[47] = 15; t["13"].y[47] = 2; t["13"].name[47] = "minecraft:nether_brick"; t["13"].meta[47] = 0
+t["13"].x[48] = 16; t["13"].y[48] = 2; t["13"].name[48] = "minecraft:nether_brick"; t["13"].meta[48] = 0
+t["14"].x[1] = 1; t["14"].y[1] = 0; t["14"].name[1] = "minecraft:planks"; t["14"].meta[1] = 1
+t["14"].x[2] = 1; t["14"].y[2] = 1; t["14"].name[2] = "minecraft:planks"; t["14"].meta[2] = 1
+t["14"].x[3] = 1; t["14"].y[3] = 2; t["14"].name[3] = "minecraft:nether_brick_stairs"; t["14"].meta[3] = 3
+t["14"].x[4] = 2; t["14"].y[4] = 0; t["14"].name[4] = "minecraft:planks"; t["14"].meta[4] = 1
+t["14"].x[5] = 2; t["14"].y[5] = 1; t["14"].name[5] = "minecraft:planks"; t["14"].meta[5] = 1
+t["14"].x[6] = 2; t["14"].y[6] = 2; t["14"].name[6] = "minecraft:nether_brick_stairs"; t["14"].meta[6] = 3
+t["14"].x[7] = 3; t["14"].y[7] = 0; t["14"].name[7] = "minecraft:planks"; t["14"].meta[7] = 1
+t["14"].x[8] = 3; t["14"].y[8] = 1; t["14"].name[8] = "minecraft:planks"; t["14"].meta[8] = 1
+t["14"].x[9] = 3; t["14"].y[9] = 2; t["14"].name[9] = "minecraft:nether_brick_stairs"; t["14"].meta[9] = 3
+t["14"].x[10] = 4; t["14"].y[10] = 0; t["14"].name[10] = "minecraft:planks"; t["14"].meta[10] = 1
+t["14"].x[11] = 4; t["14"].y[11] = 1; t["14"].name[11] = "minecraft:planks"; t["14"].meta[11] = 1
+t["14"].x[12] = 4; t["14"].y[12] = 2; t["14"].name[12] = "minecraft:nether_brick_stairs"; t["14"].meta[12] = 0
+t["14"].x[13] = 4; t["14"].y[13] = 3; t["14"].name[13] = "minecraft:nether_brick_stairs"; t["14"].meta[13] = 0
+t["14"].x[14] = 4; t["14"].y[14] = 4; t["14"].name[14] = "minecraft:nether_brick_stairs"; t["14"].meta[14] = 0
+t["14"].x[15] = 4; t["14"].y[15] = 5; t["14"].name[15] = "minecraft:nether_brick_stairs"; t["14"].meta[15] = 0
+t["14"].x[16] = 4; t["14"].y[16] = 6; t["14"].name[16] = "minecraft:nether_brick_stairs"; t["14"].meta[16] = 0
+t["14"].x[17] = 4; t["14"].y[17] = 7; t["14"].name[17] = "minecraft:birch_stairs"; t["14"].meta[17] = 0
+t["14"].x[18] = 5; t["14"].y[18] = 0; t["14"].name[18] = "minecraft:planks"; t["14"].meta[18] = 1
+t["14"].x[19] = 5; t["14"].y[19] = 1; t["14"].name[19] = "minecraft:planks"; t["14"].meta[19] = 1
+t["14"].x[20] = 5; t["14"].y[20] = 2; t["14"].name[20] = "minecraft:planks"; t["14"].meta[20] = 1
+t["14"].x[21] = 5; t["14"].y[21] = 3; t["14"].name[21] = "minecraft:planks"; t["14"].meta[21] = 1
+t["14"].x[22] = 5; t["14"].y[22] = 4; t["14"].name[22] = "minecraft:planks"; t["14"].meta[22] = 1
+t["14"].x[23] = 5; t["14"].y[23] = 5; t["14"].name[23] = "minecraft:wool"; t["14"].meta[23] = 0
+t["14"].x[24] = 5; t["14"].y[24] = 7; t["14"].name[24] = "minecraft:spruce_stairs"; t["14"].meta[24] = 7
+t["14"].x[25] = 6; t["14"].y[25] = 0; t["14"].name[25] = "minecraft:planks"; t["14"].meta[25] = 1
+t["14"].x[26] = 6; t["14"].y[26] = 1; t["14"].name[26] = "minecraft:planks"; t["14"].meta[26] = 1
+t["14"].x[27] = 6; t["14"].y[27] = 2; t["14"].name[27] = "minecraft:planks"; t["14"].meta[27] = 1
+t["14"].x[28] = 6; t["14"].y[28] = 3; t["14"].name[28] = "minecraft:planks"; t["14"].meta[28] = 1
+t["14"].x[29] = 6; t["14"].y[29] = 4; t["14"].name[29] = "minecraft:planks"; t["14"].meta[29] = 1
+t["14"].x[30] = 6; t["14"].y[30] = 5; t["14"].name[30] = "minecraft:planks"; t["14"].meta[30] = 1
+t["14"].x[31] = 6; t["14"].y[31] = 6; t["14"].name[31] = "minecraft:log"; t["14"].meta[31] = 1
+t["14"].x[32] = 6; t["14"].y[32] = 7; t["14"].name[32] = "minecraft:nether_brick_fence"; t["14"].meta[32] = 0
+t["14"].x[33] = 7; t["14"].y[33] = 0; t["14"].name[33] = "minecraft:planks"; t["14"].meta[33] = 1
+t["14"].x[34] = 7; t["14"].y[34] = 1; t["14"].name[34] = "minecraft:planks"; t["14"].meta[34] = 1
+t["14"].x[35] = 7; t["14"].y[35] = 2; t["14"].name[35] = "minecraft:planks"; t["14"].meta[35] = 1
+t["14"].x[36] = 7; t["14"].y[36] = 3; t["14"].name[36] = "minecraft:planks"; t["14"].meta[36] = 1
+t["14"].x[37] = 7; t["14"].y[37] = 4; t["14"].name[37] = "minecraft:planks"; t["14"].meta[37] = 1
+t["14"].x[38] = 7; t["14"].y[38] = 5; t["14"].name[38] = "minecraft:planks"; t["14"].meta[38] = 1
+t["14"].x[39] = 7; t["14"].y[39] = 6; t["14"].name[39] = "minecraft:planks"; t["14"].meta[39] = 1
+t["14"].x[40] = 7; t["14"].y[40] = 7; t["14"].name[40] = "minecraft:spruce_stairs"; t["14"].meta[40] = 7
+t["14"].x[41] = 8; t["14"].y[41] = 0; t["14"].name[41] = "minecraft:planks"; t["14"].meta[41] = 1
+t["14"].x[42] = 8; t["14"].y[42] = 1; t["14"].name[42] = "minecraft:planks"; t["14"].meta[42] = 1
+t["14"].x[43] = 8; t["14"].y[43] = 2; t["14"].name[43] = "minecraft:planks"; t["14"].meta[43] = 1
+t["14"].x[44] = 8; t["14"].y[44] = 3; t["14"].name[44] = "minecraft:planks"; t["14"].meta[44] = 1
+t["14"].x[45] = 8; t["14"].y[45] = 4; t["14"].name[45] = "minecraft:planks"; t["14"].meta[45] = 1
+t["14"].x[46] = 8; t["14"].y[46] = 5; t["14"].name[46] = "minecraft:planks"; t["14"].meta[46] = 1
+t["14"].x[47] = 8; t["14"].y[47] = 6; t["14"].name[47] = "minecraft:log"; t["14"].meta[47] = 1
+t["14"].x[48] = 8; t["14"].y[48] = 7; t["14"].name[48] = "minecraft:nether_brick_fence"; t["14"].meta[48] = 0
+t["14"].x[49] = 9; t["14"].y[49] = 0; t["14"].name[49] = "minecraft:planks"; t["14"].meta[49] = 1
+t["14"].x[50] = 9; t["14"].y[50] = 1; t["14"].name[50] = "minecraft:planks"; t["14"].meta[50] = 1
+t["14"].x[51] = 9; t["14"].y[51] = 2; t["14"].name[51] = "minecraft:planks"; t["14"].meta[51] = 1
+t["14"].x[52] = 9; t["14"].y[52] = 3; t["14"].name[52] = "minecraft:planks"; t["14"].meta[52] = 1
+t["14"].x[53] = 9; t["14"].y[53] = 4; t["14"].name[53] = "minecraft:planks"; t["14"].meta[53] = 1
+t["14"].x[54] = 9; t["14"].y[54] = 5; t["14"].name[54] = "minecraft:planks"; t["14"].meta[54] = 1
+t["14"].x[55] = 9; t["14"].y[55] = 6; t["14"].name[55] = "minecraft:planks"; t["14"].meta[55] = 1
+t["14"].x[56] = 9; t["14"].y[56] = 7; t["14"].name[56] = "minecraft:spruce_stairs"; t["14"].meta[56] = 7
+t["14"].x[57] = 10; t["14"].y[57] = 0; t["14"].name[57] = "minecraft:planks"; t["14"].meta[57] = 1
+t["14"].x[58] = 10; t["14"].y[58] = 1; t["14"].name[58] = "minecraft:planks"; t["14"].meta[58] = 1
+t["14"].x[59] = 10; t["14"].y[59] = 2; t["14"].name[59] = "minecraft:planks"; t["14"].meta[59] = 1
+t["14"].x[60] = 10; t["14"].y[60] = 3; t["14"].name[60] = "minecraft:planks"; t["14"].meta[60] = 1
+t["14"].x[61] = 10; t["14"].y[61] = 4; t["14"].name[61] = "minecraft:planks"; t["14"].meta[61] = 1
+t["14"].x[62] = 10; t["14"].y[62] = 5; t["14"].name[62] = "minecraft:planks"; t["14"].meta[62] = 1
+t["14"].x[63] = 10; t["14"].y[63] = 6; t["14"].name[63] = "minecraft:log"; t["14"].meta[63] = 1
+t["14"].x[64] = 10; t["14"].y[64] = 7; t["14"].name[64] = "minecraft:nether_brick_fence"; t["14"].meta[64] = 0
+t["14"].x[65] = 11; t["14"].y[65] = 0; t["14"].name[65] = "minecraft:planks"; t["14"].meta[65] = 1
+t["14"].x[66] = 11; t["14"].y[66] = 1; t["14"].name[66] = "minecraft:planks"; t["14"].meta[66] = 1
+t["14"].x[67] = 11; t["14"].y[67] = 2; t["14"].name[67] = "minecraft:planks"; t["14"].meta[67] = 1
+t["14"].x[68] = 11; t["14"].y[68] = 3; t["14"].name[68] = "minecraft:planks"; t["14"].meta[68] = 1
+t["14"].x[69] = 11; t["14"].y[69] = 4; t["14"].name[69] = "minecraft:planks"; t["14"].meta[69] = 1
+t["14"].x[70] = 11; t["14"].y[70] = 5; t["14"].name[70] = "minecraft:wool"; t["14"].meta[70] = 0
+t["14"].x[71] = 11; t["14"].y[71] = 6; t["14"].name[71] = "minecraft:nether_brick_fence"; t["14"].meta[71] = 0
+t["14"].x[72] = 11; t["14"].y[72] = 7; t["14"].name[72] = "minecraft:spruce_stairs"; t["14"].meta[72] = 7
+t["14"].x[73] = 12; t["14"].y[73] = 0; t["14"].name[73] = "minecraft:planks"; t["14"].meta[73] = 1
+t["14"].x[74] = 12; t["14"].y[74] = 1; t["14"].name[74] = "minecraft:planks"; t["14"].meta[74] = 1
+t["14"].x[75] = 12; t["14"].y[75] = 2; t["14"].name[75] = "minecraft:nether_brick_stairs"; t["14"].meta[75] = 1
+t["14"].x[76] = 12; t["14"].y[76] = 3; t["14"].name[76] = "minecraft:nether_brick_stairs"; t["14"].meta[76] = 1
+t["14"].x[77] = 12; t["14"].y[77] = 4; t["14"].name[77] = "minecraft:nether_brick_stairs"; t["14"].meta[77] = 1
+t["14"].x[78] = 12; t["14"].y[78] = 5; t["14"].name[78] = "minecraft:nether_brick_stairs"; t["14"].meta[78] = 1
+t["14"].x[79] = 12; t["14"].y[79] = 6; t["14"].name[79] = "minecraft:nether_brick_stairs"; t["14"].meta[79] = 1
+t["14"].x[80] = 12; t["14"].y[80] = 7; t["14"].name[80] = "minecraft:birch_stairs"; t["14"].meta[80] = 1
+t["14"].x[81] = 13; t["14"].y[81] = 0; t["14"].name[81] = "minecraft:planks"; t["14"].meta[81] = 1
+t["14"].x[82] = 13; t["14"].y[82] = 1; t["14"].name[82] = "minecraft:planks"; t["14"].meta[82] = 1
+t["14"].x[83] = 13; t["14"].y[83] = 2; t["14"].name[83] = "minecraft:nether_brick_stairs"; t["14"].meta[83] = 3
+t["14"].x[84] = 14; t["14"].y[84] = 0; t["14"].name[84] = "minecraft:planks"; t["14"].meta[84] = 1
+t["14"].x[85] = 14; t["14"].y[85] = 1; t["14"].name[85] = "minecraft:planks"; t["14"].meta[85] = 1
+t["14"].x[86] = 14; t["14"].y[86] = 2; t["14"].name[86] = "minecraft:nether_brick_stairs"; t["14"].meta[86] = 3
+t["14"].x[87] = 15; t["14"].y[87] = 0; t["14"].name[87] = "minecraft:planks"; t["14"].meta[87] = 1
+t["14"].x[88] = 15; t["14"].y[88] = 1; t["14"].name[88] = "minecraft:planks"; t["14"].meta[88] = 1
+t["14"].x[89] = 15; t["14"].y[89] = 2; t["14"].name[89] = "minecraft:nether_brick_stairs"; t["14"].meta[89] = 3
+t["14"].x[90] = 16; t["14"].y[90] = 0; t["14"].name[90] = "minecraft:planks"; t["14"].meta[90] = 1
+t["14"].x[91] = 16; t["14"].y[91] = 1; t["14"].name[91] = "minecraft:planks"; t["14"].meta[91] = 1
+t["14"].x[92] = 16; t["14"].y[92] = 2; t["14"].name[92] = "minecraft:nether_brick_stairs"; t["14"].meta[92] = 3
+t["15"].x[1] = 1; t["15"].y[1] = 1; t["15"].name[1] = "minecraft:nether_brick"; t["15"].meta[1] = 0
+t["15"].x[2] = 2; t["15"].y[2] = 1; t["15"].name[2] = "minecraft:nether_brick"; t["15"].meta[2] = 0
+t["15"].x[3] = 3; t["15"].y[3] = 1; t["15"].name[3] = "minecraft:nether_brick"; t["15"].meta[3] = 0
+t["15"].x[4] = 4; t["15"].y[4] = 1; t["15"].name[4] = "minecraft:nether_brick"; t["15"].meta[4] = 0
+t["15"].x[5] = 5; t["15"].y[5] = 1; t["15"].name[5] = "minecraft:nether_brick"; t["15"].meta[5] = 0
+t["15"].x[6] = 5; t["15"].y[6] = 2; t["15"].name[6] = "minecraft:nether_brick"; t["15"].meta[6] = 0
+t["15"].x[7] = 5; t["15"].y[7] = 3; t["15"].name[7] = "minecraft:nether_brick"; t["15"].meta[7] = 0
+t["15"].x[8] = 5; t["15"].y[8] = 4; t["15"].name[8] = "minecraft:nether_brick"; t["15"].meta[8] = 0
+t["15"].x[9] = 5; t["15"].y[9] = 5; t["15"].name[9] = "minecraft:nether_brick"; t["15"].meta[9] = 0
+t["15"].x[10] = 5; t["15"].y[10] = 6; t["15"].name[10] = "minecraft:nether_brick"; t["15"].meta[10] = 0
+t["15"].x[11] = 5; t["15"].y[11] = 7; t["15"].name[11] = "minecraft:planks"; t["15"].meta[11] = 2
+t["15"].x[12] = 6; t["15"].y[12] = 6; t["15"].name[12] = "minecraft:log"; t["15"].meta[12] = 1
+t["15"].x[13] = 6; t["15"].y[13] = 7; t["15"].name[13] = "minecraft:nether_brick_stairs"; t["15"].meta[13] = 7
+t["15"].x[14] = 7; t["15"].y[14] = 7; t["15"].name[14] = "minecraft:nether_brick"; t["15"].meta[14] = 0
+t["15"].x[15] = 8; t["15"].y[15] = 2; t["15"].name[15] = "minecraft:glowstone"; t["15"].meta[15] = 0
+t["15"].x[16] = 8; t["15"].y[16] = 7; t["15"].name[16] = "minecraft:nether_brick_stairs"; t["15"].meta[16] = 7
+t["15"].x[17] = 9; t["15"].y[17] = 7; t["15"].name[17] = "minecraft:nether_brick"; t["15"].meta[17] = 0
+t["15"].x[18] = 10; t["15"].y[18] = 6; t["15"].name[18] = "minecraft:log"; t["15"].meta[18] = 1
+t["15"].x[19] = 10; t["15"].y[19] = 7; t["15"].name[19] = "minecraft:nether_brick_stairs"; t["15"].meta[19] = 7
+t["15"].x[20] = 11; t["15"].y[20] = 1; t["15"].name[20] = "minecraft:cobblestone"; t["15"].meta[20] = 0
+t["15"].x[21] = 11; t["15"].y[21] = 2; t["15"].name[21] = "minecraft:nether_brick"; t["15"].meta[21] = 0
+t["15"].x[22] = 11; t["15"].y[22] = 3; t["15"].name[22] = "minecraft:nether_brick"; t["15"].meta[22] = 0
+t["15"].x[23] = 11; t["15"].y[23] = 4; t["15"].name[23] = "minecraft:nether_brick"; t["15"].meta[23] = 0
+t["15"].x[24] = 11; t["15"].y[24] = 5; t["15"].name[24] = "minecraft:nether_brick"; t["15"].meta[24] = 0
+t["15"].x[25] = 11; t["15"].y[25] = 6; t["15"].name[25] = "minecraft:nether_brick"; t["15"].meta[25] = 0
+t["15"].x[26] = 11; t["15"].y[26] = 7; t["15"].name[26] = "minecraft:planks"; t["15"].meta[26] = 2
+t["15"].x[27] = 12; t["15"].y[27] = 1; t["15"].name[27] = "minecraft:nether_brick"; t["15"].meta[27] = 0
+t["15"].x[28] = 13; t["15"].y[28] = 1; t["15"].name[28] = "minecraft:nether_brick"; t["15"].meta[28] = 0
+t["15"].x[29] = 14; t["15"].y[29] = 1; t["15"].name[29] = "minecraft:nether_brick"; t["15"].meta[29] = 0
+t["15"].x[30] = 15; t["15"].y[30] = 1; t["15"].name[30] = "minecraft:nether_brick"; t["15"].meta[30] = 0
+t["15"].x[31] = 16; t["15"].y[31] = 1; t["15"].name[31] = "minecraft:nether_brick"; t["15"].meta[31] = 0
+t["16"].x[1] = 1; t["16"].y[1] = 1; t["16"].name[1] = "minecraft:nether_brick_stairs"; t["16"].meta[1] = 3
+t["16"].x[2] = 2; t["16"].y[2] = 1; t["16"].name[2] = "minecraft:nether_brick_stairs"; t["16"].meta[2] = 3
+t["16"].x[3] = 3; t["16"].y[3] = 1; t["16"].name[3] = "minecraft:nether_brick_stairs"; t["16"].meta[3] = 3
+t["16"].x[4] = 4; t["16"].y[4] = 1; t["16"].name[4] = "minecraft:nether_brick_stairs"; t["16"].meta[4] = 3
+t["16"].x[5] = 5; t["16"].y[5] = 1; t["16"].name[5] = "minecraft:nether_brick_stairs"; t["16"].meta[5] = 0
+t["16"].x[6] = 5; t["16"].y[6] = 2; t["16"].name[6] = "minecraft:nether_brick_stairs"; t["16"].meta[6] = 0
+t["16"].x[7] = 5; t["16"].y[7] = 3; t["16"].name[7] = "minecraft:nether_brick_stairs"; t["16"].meta[7] = 0
+t["16"].x[8] = 5; t["16"].y[8] = 4; t["16"].name[8] = "minecraft:nether_brick_stairs"; t["16"].meta[8] = 0
+t["16"].x[9] = 5; t["16"].y[9] = 5; t["16"].name[9] = "minecraft:nether_brick_stairs"; t["16"].meta[9] = 0
+t["16"].x[10] = 5; t["16"].y[10] = 6; t["16"].name[10] = "minecraft:nether_brick_stairs"; t["16"].meta[10] = 0
+t["16"].x[11] = 5; t["16"].y[11] = 7; t["16"].name[11] = "minecraft:birch_stairs"; t["16"].meta[11] = 0
+t["16"].x[12] = 6; t["16"].y[12] = 6; t["16"].name[12] = "minecraft:log"; t["16"].meta[12] = 1
+t["16"].x[13] = 6; t["16"].y[13] = 7; t["16"].name[13] = "minecraft:nether_brick_stairs"; t["16"].meta[13] = 3
+t["16"].x[14] = 7; t["16"].y[14] = 6; t["16"].name[14] = "minecraft:wool"; t["16"].meta[14] = 0
+t["16"].x[15] = 7; t["16"].y[15] = 7; t["16"].name[15] = "minecraft:nether_brick_stairs"; t["16"].meta[15] = 3
+t["16"].x[16] = 8; t["16"].y[16] = 7; t["16"].name[16] = "minecraft:nether_brick_stairs"; t["16"].meta[16] = 3
+t["16"].x[17] = 9; t["16"].y[17] = 6; t["16"].name[17] = "minecraft:wool"; t["16"].meta[17] = 0
+t["16"].x[18] = 9; t["16"].y[18] = 7; t["16"].name[18] = "minecraft:nether_brick_stairs"; t["16"].meta[18] = 3
+t["16"].x[19] = 10; t["16"].y[19] = 6; t["16"].name[19] = "minecraft:log"; t["16"].meta[19] = 1
+t["16"].x[20] = 10; t["16"].y[20] = 7; t["16"].name[20] = "minecraft:nether_brick_stairs"; t["16"].meta[20] = 3
+t["16"].x[21] = 11; t["16"].y[21] = 1; t["16"].name[21] = "minecraft:nether_brick_stairs"; t["16"].meta[21] = 1
+t["16"].x[22] = 11; t["16"].y[22] = 2; t["16"].name[22] = "minecraft:nether_brick_stairs"; t["16"].meta[22] = 1
+t["16"].x[23] = 11; t["16"].y[23] = 3; t["16"].name[23] = "minecraft:nether_brick_stairs"; t["16"].meta[23] = 1
+t["16"].x[24] = 11; t["16"].y[24] = 4; t["16"].name[24] = "minecraft:nether_brick_stairs"; t["16"].meta[24] = 1
+t["16"].x[25] = 11; t["16"].y[25] = 5; t["16"].name[25] = "minecraft:nether_brick_stairs"; t["16"].meta[25] = 1
+t["16"].x[26] = 11; t["16"].y[26] = 6; t["16"].name[26] = "minecraft:nether_brick_stairs"; t["16"].meta[26] = 1
+t["16"].x[27] = 11; t["16"].y[27] = 7; t["16"].name[27] = "minecraft:birch_stairs"; t["16"].meta[27] = 1
+t["16"].x[28] = 12; t["16"].y[28] = 1; t["16"].name[28] = "minecraft:nether_brick_stairs"; t["16"].meta[28] = 3
+t["16"].x[29] = 13; t["16"].y[29] = 1; t["16"].name[29] = "minecraft:nether_brick_stairs"; t["16"].meta[29] = 3
+t["16"].x[30] = 14; t["16"].y[30] = 1; t["16"].name[30] = "minecraft:nether_brick_stairs"; t["16"].meta[30] = 3
+t["16"].x[31] = 15; t["16"].y[31] = 1; t["16"].name[31] = "minecraft:nether_brick_stairs"; t["16"].meta[31] = 3
+t["16"].x[32] = 16; t["16"].y[32] = 1; t["16"].name[32] = "minecraft:nether_brick_stairs"; t["16"].meta[32] = 3
+t["17"].x[1] = 1; t["17"].y[1] = 0; t["17"].name[1] = "minecraft:nether_brick"; t["17"].meta[1] = 0
+t["17"].x[2] = 2; t["17"].y[2] = 0; t["17"].name[2] = "minecraft:nether_brick"; t["17"].meta[2] = 0
+t["17"].x[3] = 3; t["17"].y[3] = 0; t["17"].name[3] = "minecraft:nether_brick"; t["17"].meta[3] = 0
+t["17"].x[4] = 4; t["17"].y[4] = 0; t["17"].name[4] = "minecraft:nether_brick"; t["17"].meta[4] = 0
+t["17"].x[5] = 5; t["17"].y[5] = 0; t["17"].name[5] = "minecraft:nether_brick"; t["17"].meta[5] = 0
+t["17"].x[6] = 6; t["17"].y[6] = 0; t["17"].name[6] = "minecraft:cobblestone"; t["17"].meta[6] = 0
+t["17"].x[7] = 6; t["17"].y[7] = 1; t["17"].name[7] = "minecraft:nether_brick"; t["17"].meta[7] = 0
+t["17"].x[8] = 6; t["17"].y[8] = 2; t["17"].name[8] = "minecraft:nether_brick"; t["17"].meta[8] = 0
+t["17"].x[9] = 6; t["17"].y[9] = 3; t["17"].name[9] = "minecraft:nether_brick"; t["17"].meta[9] = 0
+t["17"].x[10] = 6; t["17"].y[10] = 4; t["17"].name[10] = "minecraft:nether_brick"; t["17"].meta[10] = 0
+t["17"].x[11] = 6; t["17"].y[11] = 5; t["17"].name[11] = "minecraft:nether_brick"; t["17"].meta[11] = 0
+t["17"].x[12] = 6; t["17"].y[12] = 6; t["17"].name[12] = "minecraft:planks"; t["17"].meta[12] = 2
+t["17"].x[13] = 7; t["17"].y[13] = 6; t["17"].name[13] = "minecraft:nether_brick"; t["17"].meta[13] = 0
+t["17"].x[14] = 8; t["17"].y[14] = 6; t["17"].name[14] = "minecraft:nether_brick"; t["17"].meta[14] = 0
+t["17"].x[15] = 9; t["17"].y[15] = 6; t["17"].name[15] = "minecraft:nether_brick"; t["17"].meta[15] = 0
+t["17"].x[16] = 10; t["17"].y[16] = 0; t["17"].name[16] = "minecraft:cobblestone"; t["17"].meta[16] = 0
+t["17"].x[17] = 10; t["17"].y[17] = 1; t["17"].name[17] = "minecraft:nether_brick"; t["17"].meta[17] = 0
+t["17"].x[18] = 10; t["17"].y[18] = 2; t["17"].name[18] = "minecraft:nether_brick"; t["17"].meta[18] = 0
+t["17"].x[19] = 10; t["17"].y[19] = 3; t["17"].name[19] = "minecraft:nether_brick"; t["17"].meta[19] = 0
+t["17"].x[20] = 10; t["17"].y[20] = 4; t["17"].name[20] = "minecraft:nether_brick"; t["17"].meta[20] = 0
+t["17"].x[21] = 10; t["17"].y[21] = 5; t["17"].name[21] = "minecraft:nether_brick"; t["17"].meta[21] = 0
+t["17"].x[22] = 10; t["17"].y[22] = 6; t["17"].name[22] = "minecraft:planks"; t["17"].meta[22] = 2
+t["17"].x[23] = 11; t["17"].y[23] = 0; t["17"].name[23] = "minecraft:nether_brick"; t["17"].meta[23] = 0
+t["17"].x[24] = 12; t["17"].y[24] = 0; t["17"].name[24] = "minecraft:nether_brick"; t["17"].meta[24] = 0
+t["17"].x[25] = 13; t["17"].y[25] = 0; t["17"].name[25] = "minecraft:nether_brick"; t["17"].meta[25] = 0
+t["17"].x[26] = 14; t["17"].y[26] = 0; t["17"].name[26] = "minecraft:nether_brick"; t["17"].meta[26] = 0
+t["17"].x[27] = 15; t["17"].y[27] = 0; t["17"].name[27] = "minecraft:nether_brick"; t["17"].meta[27] = 0
+t["17"].x[28] = 16; t["17"].y[28] = 0; t["17"].name[28] = "minecraft:nether_brick"; t["17"].meta[28] = 0
+t["18"].x[1] = 1; t["18"].y[1] = 0; t["18"].name[1] = "minecraft:nether_brick_stairs"; t["18"].meta[1] = 3
+t["18"].x[2] = 2; t["18"].y[2] = 0; t["18"].name[2] = "minecraft:nether_brick_stairs"; t["18"].meta[2] = 3
+t["18"].x[3] = 3; t["18"].y[3] = 0; t["18"].name[3] = "minecraft:nether_brick_stairs"; t["18"].meta[3] = 3
+t["18"].x[4] = 4; t["18"].y[4] = 0; t["18"].name[4] = "minecraft:nether_brick_stairs"; t["18"].meta[4] = 3
+t["18"].x[5] = 5; t["18"].y[5] = 0; t["18"].name[5] = "minecraft:nether_brick_stairs"; t["18"].meta[5] = 3
+t["18"].x[6] = 6; t["18"].y[6] = 0; t["18"].name[6] = "minecraft:nether_brick_stairs"; t["18"].meta[6] = 0
+t["18"].x[7] = 6; t["18"].y[7] = 1; t["18"].name[7] = "minecraft:nether_brick_stairs"; t["18"].meta[7] = 0
+t["18"].x[8] = 6; t["18"].y[8] = 2; t["18"].name[8] = "minecraft:nether_brick_stairs"; t["18"].meta[8] = 0
+t["18"].x[9] = 6; t["18"].y[9] = 3; t["18"].name[9] = "minecraft:nether_brick_stairs"; t["18"].meta[9] = 0
+t["18"].x[10] = 6; t["18"].y[10] = 4; t["18"].name[10] = "minecraft:nether_brick_stairs"; t["18"].meta[10] = 0
+t["18"].x[11] = 6; t["18"].y[11] = 5; t["18"].name[11] = "minecraft:nether_brick_stairs"; t["18"].meta[11] = 0
+t["18"].x[12] = 6; t["18"].y[12] = 6; t["18"].name[12] = "minecraft:birch_stairs"; t["18"].meta[12] = 0
+t["18"].x[13] = 7; t["18"].y[13] = 6; t["18"].name[13] = "minecraft:nether_brick_stairs"; t["18"].meta[13] = 3
+t["18"].x[14] = 8; t["18"].y[14] = 6; t["18"].name[14] = "minecraft:nether_brick_stairs"; t["18"].meta[14] = 3
+t["18"].x[15] = 9; t["18"].y[15] = 6; t["18"].name[15] = "minecraft:nether_brick_stairs"; t["18"].meta[15] = 3
+t["18"].x[16] = 10; t["18"].y[16] = 0; t["18"].name[16] = "minecraft:nether_brick_stairs"; t["18"].meta[16] = 1
+t["18"].x[17] = 10; t["18"].y[17] = 1; t["18"].name[17] = "minecraft:nether_brick_stairs"; t["18"].meta[17] = 1
+t["18"].x[18] = 10; t["18"].y[18] = 2; t["18"].name[18] = "minecraft:nether_brick_stairs"; t["18"].meta[18] = 1
+t["18"].x[19] = 10; t["18"].y[19] = 3; t["18"].name[19] = "minecraft:nether_brick_stairs"; t["18"].meta[19] = 1
+t["18"].x[20] = 10; t["18"].y[20] = 4; t["18"].name[20] = "minecraft:nether_brick_stairs"; t["18"].meta[20] = 1
+t["18"].x[21] = 10; t["18"].y[21] = 5; t["18"].name[21] = "minecraft:nether_brick_stairs"; t["18"].meta[21] = 1
+t["18"].x[22] = 10; t["18"].y[22] = 6; t["18"].name[22] = "minecraft:birch_stairs"; t["18"].meta[22] = 1
+t["18"].x[23] = 11; t["18"].y[23] = 0; t["18"].name[23] = "minecraft:nether_brick_stairs"; t["18"].meta[23] = 3
+t["18"].x[24] = 12; t["18"].y[24] = 0; t["18"].name[24] = "minecraft:nether_brick_stairs"; t["18"].meta[24] = 3
+t["18"].x[25] = 13; t["18"].y[25] = 0; t["18"].name[25] = "minecraft:nether_brick_stairs"; t["18"].meta[25] = 3
+t["18"].x[26] = 14; t["18"].y[26] = 0; t["18"].name[26] = "minecraft:nether_brick_stairs"; t["18"].meta[26] = 3
+t["18"].x[27] = 15; t["18"].y[27] = 0; t["18"].name[27] = "minecraft:nether_brick_stairs"; t["18"].meta[27] = 3
+t["18"].x[28] = 16; t["18"].y[28] = 0; t["18"].name[28] = "minecraft:nether_brick_stairs"; t["18"].meta[28] = 3
+t["19"].x[1] = 7; t["19"].y[1] = 0; t["19"].name[1] = "minecraft:nether_brick"; t["19"].meta[1] = 0
+t["19"].x[2] = 7; t["19"].y[2] = 1; t["19"].name[2] = "minecraft:nether_brick"; t["19"].meta[2] = 0
+t["19"].x[3] = 7; t["19"].y[3] = 2; t["19"].name[3] = "minecraft:nether_brick"; t["19"].meta[3] = 0
+t["19"].x[4] = 7; t["19"].y[4] = 3; t["19"].name[4] = "minecraft:nether_brick"; t["19"].meta[4] = 0
+t["19"].x[5] = 7; t["19"].y[5] = 4; t["19"].name[5] = "minecraft:nether_brick"; t["19"].meta[5] = 0
+t["19"].x[6] = 7; t["19"].y[6] = 5; t["19"].name[6] = "minecraft:planks"; t["19"].meta[6] = 2
+t["19"].x[7] = 8; t["19"].y[7] = 5; t["19"].name[7] = "minecraft:nether_brick"; t["19"].meta[7] = 0
+t["19"].x[8] = 9; t["19"].y[8] = 0; t["19"].name[8] = "minecraft:nether_brick"; t["19"].meta[8] = 0
+t["19"].x[9] = 9; t["19"].y[9] = 1; t["19"].name[9] = "minecraft:nether_brick"; t["19"].meta[9] = 0
+t["19"].x[10] = 9; t["19"].y[10] = 2; t["19"].name[10] = "minecraft:nether_brick"; t["19"].meta[10] = 0
+t["19"].x[11] = 9; t["19"].y[11] = 3; t["19"].name[11] = "minecraft:nether_brick"; t["19"].meta[11] = 0
+t["19"].x[12] = 9; t["19"].y[12] = 4; t["19"].name[12] = "minecraft:nether_brick"; t["19"].meta[12] = 0
+t["19"].x[13] = 9; t["19"].y[13] = 5; t["19"].name[13] = "minecraft:planks"; t["19"].meta[13] = 2
+t["20"].x[1] = 7; t["20"].y[1] = 0; t["20"].name[1] = "minecraft:nether_brick_stairs"; t["20"].meta[1] = 0
+t["20"].x[2] = 7; t["20"].y[2] = 1; t["20"].name[2] = "minecraft:nether_brick_stairs"; t["20"].meta[2] = 0
+t["20"].x[3] = 7; t["20"].y[3] = 2; t["20"].name[3] = "minecraft:nether_brick_stairs"; t["20"].meta[3] = 0
+t["20"].x[4] = 7; t["20"].y[4] = 3; t["20"].name[4] = "minecraft:nether_brick_stairs"; t["20"].meta[4] = 0
+t["20"].x[5] = 7; t["20"].y[5] = 4; t["20"].name[5] = "minecraft:nether_brick_stairs"; t["20"].meta[5] = 0
+t["20"].x[6] = 7; t["20"].y[6] = 5; t["20"].name[6] = "minecraft:birch_stairs"; t["20"].meta[6] = 3
+t["20"].x[7] = 8; t["20"].y[7] = 5; t["20"].name[7] = "minecraft:nether_brick_stairs"; t["20"].meta[7] = 3
+t["20"].x[8] = 9; t["20"].y[8] = 0; t["20"].name[8] = "minecraft:nether_brick_stairs"; t["20"].meta[8] = 1
+t["20"].x[9] = 9; t["20"].y[9] = 1; t["20"].name[9] = "minecraft:nether_brick_stairs"; t["20"].meta[9] = 1
+t["20"].x[10] = 9; t["20"].y[10] = 2; t["20"].name[10] = "minecraft:nether_brick_stairs"; t["20"].meta[10] = 1
+t["20"].x[11] = 9; t["20"].y[11] = 3; t["20"].name[11] = "minecraft:nether_brick_stairs"; t["20"].meta[11] = 1
+t["20"].x[12] = 9; t["20"].y[12] = 4; t["20"].name[12] = "minecraft:nether_brick_stairs"; t["20"].meta[12] = 1
+t["20"].x[13] = 9; t["20"].y[13] = 5; t["20"].name[13] = "minecraft:birch_stairs"; t["20"].meta[13] = 3
+t["21"].x[1] = 8; t["21"].y[1] = 0; t["21"].name[1] = "minecraft:planks"; t["21"].meta[1] = 2
+t["21"].x[2] = 8; t["21"].y[2] = 1; t["21"].name[2] = "minecraft:planks"; t["21"].meta[2] = 2
+t["21"].x[3] = 8; t["21"].y[3] = 2; t["21"].name[3] = "minecraft:planks"; t["21"].meta[3] = 2
+t["21"].x[4] = 8; t["21"].y[4] = 3; t["21"].name[4] = "minecraft:planks"; t["21"].meta[4] = 2
+t["21"].x[5] = 8; t["21"].y[5] = 4; t["21"].name[5] = "minecraft:planks"; t["21"].meta[5] = 2
+t["22"].x[1] = 8; t["22"].y[1] = 0; t["22"].name[1] = "minecraft:cobblestone_wall"; t["22"].meta[1] = 0
+t["22"].x[2] = 8; t["22"].y[2] = 2; t["22"].name[2] = "minecraft:cobblestone_wall"; t["22"].meta[2] = 0
+t["22"].x[3] = 8; t["22"].y[3] = 4; t["22"].name[3] = "minecraft:cobblestone_wall"; t["22"].meta[3] = 0
+t["23"].x[1] = 8; t["23"].y[1] = 0; t["23"].name[1] = "minecraft:planks"; t["23"].meta[1] = 2
+t["23"].x[2] = 8; t["23"].y[2] = 2; t["23"].name[2] = "minecraft:nether_brick_fence"; t["23"].meta[2] = 0
+t["23"].x[3] = 8; t["23"].y[3] = 4; t["23"].name[3] = "minecraft:planks"; t["23"].meta[3] = 2
+t["24"].x[1] = 8; t["24"].y[1] = 0; t["24"].name[1] = "minecraft:cobblestone_wall"; t["24"].meta[1] = 0
+t["24"].x[2] = 8; t["24"].y[2] = 4; t["24"].name[2] = "minecraft:cobblestone_wall"; t["24"].meta[2] = 0
+t["25"].x[1] = 8; t["25"].y[1] = 0; t["25"].name[1] = "minecraft:nether_brick_fence"; t["25"].meta[1] = 0
+t["25"].x[2] = 8; t["25"].y[2] = 4; t["25"].name[2] = "minecraft:nether_brick_fence"; t["25"].meta[2] = 0
+return t
+end
+return castle_library
